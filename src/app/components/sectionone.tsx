@@ -1,7 +1,8 @@
 'use client';
 
-import { Box, Button, Flex, Heading, Stack, Text } from '@chakra-ui/react';
+import { Box, Flex, Heading, Stack, Text } from '@chakra-ui/react';
 import Image from 'next/image';
+import { ButtonCta } from './buttoncta';
 import { Navbar } from './navbar';
 import { SectionTwo } from './sectiontwo';
 
@@ -17,7 +18,7 @@ export function SectionOne() {
         <Box bgGradient={'linear(to-r, gray.900, red.800, transparent 100%)'}>
           <Navbar />
           <Stack direction={{ base: 'column', md: 'row' }}>
-            <Flex p={20} flex={1} align={'center'} justify={'center'}>
+            <Flex p={16} flex={1} align={'center'} justify={'center'}>
               <Stack spacing={6} w={'full'}>
                 <Heading
                   as={'h1'}
@@ -43,21 +44,7 @@ export function SectionOne() {
                   lógico jurídico e técnicas de persuasão.
                 </Text>
                 <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
-                  <Button
-                    rounded={'full'}
-                    size={'lg'}
-                    bg={'red.800'}
-                    color={'whiteAlpha.900'}
-                    shadow={'dark-lg'}
-                    _hover={{
-                      bg: 'blackAlpha.700',
-                      transform: 'scale(1.1)',
-                      border: '1px solid',
-                      borderColor: 'red.800',
-                    }}
-                  >
-                    Sim, quero garantir meu lugar
-                  </Button>
+                  <ButtonCta />
                 </Stack>
               </Stack>
             </Flex>
@@ -66,7 +53,8 @@ export function SectionOne() {
                 src={'/img/bgAlbuquerque2.png'}
                 alt={'Image Albuquerque'}
                 width={800}
-                height={800}
+                height={400}
+                quality={70}
                 priority
               />
             </Flex>

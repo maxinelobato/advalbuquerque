@@ -11,6 +11,7 @@ import {
   VStack,
 } from '@chakra-ui/react';
 import { ShieldCheck, Lock, Laptop } from 'phosphor-react';
+import { ButtonCta } from './buttoncta';
 
 export function SectionFour() {
   return (
@@ -108,6 +109,9 @@ export function SectionFour() {
                 </SimpleGrid>
               </Flex>
             </Box>
+            <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
+              <ButtonCta />
+            </Stack>
           </Stack>
         </Container>
       </Box>
