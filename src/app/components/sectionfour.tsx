@@ -10,16 +10,7 @@ import {
   Text,
   VStack,
 } from '@chakra-ui/react';
-import {
-  Detective,
-  Brain,
-  SpeakerHigh,
-  Scales,
-  Desktop,
-  ShieldCheck,
-  Lock,
-  Laptop,
-} from 'phosphor-react';
+import { ShieldCheck, Lock, Laptop } from 'phosphor-react';
 
 export function SectionFour() {
   return (
