@@ -7,27 +7,17 @@ export function Navbar() {
     <>
       <Box
         w="full"
-        h={28}
+        h={20}
         bgGradient={'linear(to-r, transparent 20%, blackAlpha.900, transparent 80%)'}
       >
-        <VStack p={3} alignContent={'center'}>
+        <VStack p={4} alignContent={'center'}>
           <Image
             src={'/img/logo_albuquerque.svg'}
             alt={'Image Albuquerque'}
-            width={50}
-            height={50}
+            width={40}
+            height={40}
             priority
           />
-          <Text
-            as={'h1'}
-            color={'red.600'}
-            fontFamily={'Roboto'}
-            fontSize={'lg'}
-            textTransform={'uppercase'}
-            textAlign={'center'}
-          >
-            albuquerque
-          </Text>
         </VStack>
       </Box>
     </>

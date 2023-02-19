@@ -19,7 +19,7 @@ export function SectionThree() {
           justifyContent={{ base: 'center', md: 'center' }}
           direction={{ base: 'column-reverse', md: 'column' }}
         >
-          <Container maxW={'6xl'}>
+          <Container maxW={'5xl'}>
             <SimpleGrid columns={{ base: 3, md: 3 }} spacing={[2, 6]}>
               <VStack align={'center'} py={5}>
                 <Box color={'red.400'} px={2}>

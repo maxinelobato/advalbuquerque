@@ -4,22 +4,22 @@ import { Box, Flex, Heading, Stack, Text } from '@chakra-ui/react';
 import Image from 'next/image';
 import { ButtonCta } from './buttoncta';
 import { Navbar } from './navbar';
-import { SectionTwo } from './sectiontwo';
 
 export function SectionOne() {
   return (
     <>
       <Box
         bgImage={'/img/bgImage.jpg'}
-        bgPos={'center'}
-        bgRepeat={'no-repeat'}
         bgSize={'cover'}
+        bgPos={'center'}
+        bgAttachment={'fixed'}
+        bgRepeat={'no-repeat'}
       >
         <Box bgGradient={'linear(to-r, gray.900, red.800, transparent 100%)'}>
           <Navbar />
           <Stack direction={{ base: 'column', md: 'row' }}>
             <Flex p={16} flex={1} align={'center'} justify={'center'}>
-              <Stack spacing={6} w={'full'}>
+              <Stack spacing={6} w={'full'} maxW={'2xl'}>
                 <Heading
                   as={'h1'}
                   fontWeight={900}
@@ -61,7 +61,6 @@ export function SectionOne() {
           </Stack>
         </Box>
       </Box>
-      <SectionTwo />
     </>
   );
 }

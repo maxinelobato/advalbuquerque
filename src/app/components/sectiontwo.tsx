@@ -49,8 +49,8 @@ export function SectionTwo() {
                 condição. teremos no mínimo 5 módulos.
               </Highlight>
             </Heading>
+            <SectionThree />
           </Stack>
-          <SectionThree />
         </Container>
       </Box>
     </>
