@@ -13,8 +13,8 @@ export function Navbar() {
       >
         <VStack p={4} alignContent={'center'}>
           <Image
-            src={'/img/logo_albuquerque.svg'}
-            alt={'Image Albuquerque'}
+            src={'/img/logo.png'}
+            alt={'Logo Albuquerque'}
             width={40}
             height={40}
             priority

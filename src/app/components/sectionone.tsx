@@ -55,9 +55,6 @@ export function SectionOne() {
                 height={300}
                 quality={75}
                 priority
-                style={{
-                  filter: 'drop-shadow',
-                }}
               />
             </Flex>
           </Stack>
