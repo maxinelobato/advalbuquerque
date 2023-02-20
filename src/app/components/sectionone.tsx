@@ -51,10 +51,13 @@ export function SectionOne() {
               <Image
                 src={'/img/bgAlbuquerque2.png'}
                 alt={'Image Albuquerque'}
-                width={800}
-                height={400}
-                quality={100}
+                width={600}
+                height={300}
+                quality={75}
                 priority
+                style={{
+                  filter: 'drop-shadow',
+                }}
               />
             </Flex>
           </Stack>
