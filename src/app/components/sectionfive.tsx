@@ -40,7 +40,7 @@ export function SectionFive() {
                   <Stack spacing="3" textAlign="center">
                     <Text
                       as={'s'}
-                      color={'whiteAlpha.600'}
+                      color={'blackAlpha.700'}
                       fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
                       transform="scale(1.2)"
                     >
