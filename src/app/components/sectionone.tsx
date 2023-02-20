@@ -12,10 +12,10 @@ export function SectionOne() {
         bgImage={'/img/bgImage.jpg'}
         bgSize={'cover'}
         bgPos={'center'}
-        bgAttachment={'fixed'}
         bgRepeat={'no-repeat'}
+        height={'100%'}
       >
-        <Box bgGradient={'linear(to-r, gray.900, red.800, transparent 100%)'}>
+        <Box bgGradient={'linear(to-r, gray.900, red.800, transparent)'}>
           <Navbar />
           <Stack direction={{ base: 'column', md: 'row' }}>
             <Flex p={16} flex={1} align={'center'} justify={'center'}>
@@ -38,7 +38,6 @@ export function SectionOne() {
                   fontSize={{ base: 'lg', md: '2xl', lg: '3xl' }}
                   textAlign={{ base: 'center', md: 'center', lg: 'left' }}
                   color={'whiteAlpha.800'}
-                  textTransform={'uppercase'}
                 >
                   Saiba como usar as melhores técnicas de interrogatório, raciocínio
                   lógico jurídico e técnicas de persuasão.
@@ -54,7 +53,7 @@ export function SectionOne() {
                 alt={'Image Albuquerque'}
                 width={800}
                 height={400}
-                quality={70}
+                quality={100}
                 priority
               />
             </Flex>

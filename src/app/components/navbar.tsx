@@ -1,5 +1,6 @@
 'use client';
-import { Box, Text, VStack } from '@chakra-ui/react';
+
+import { Box, VStack } from '@chakra-ui/react';
 import Image from 'next/image';
 
 export function Navbar() {
@@ -8,7 +9,7 @@ export function Navbar() {
       <Box
         w="full"
         h={20}
-        bgGradient={'linear(to-r, transparent 20%, blackAlpha.900, transparent 80%)'}
+        bgGradient={'linear(to-r, transparent 20%, gray.900, transparent 80%)'}
       >
         <VStack p={4} alignContent={'center'}>
           <Image

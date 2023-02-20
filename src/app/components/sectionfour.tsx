@@ -18,8 +18,8 @@ export function SectionFour() {
     <>
       <Box bgGradient={'linear(to-r, gray.900, red.800, transparent 100%)'}>
         <Container maxW={'5xl'}>
-          <Stack direction="column" alignItems="center" p={10}>
-            <Box p={2}>
+          <Stack direction="column" alignItems="center" p={8}>
+            <Box>
               <Flex
                 justifyContent={{ base: 'center', md: 'center' }}
                 direction={{ base: 'column-reverse', md: 'column' }}
@@ -33,6 +33,12 @@ export function SectionFour() {
                     backdropFilter={'1rem'}
                     bgColor={'whiteAlpha.50'}
                     rounded={'lg'}
+                    shadow={'lg'}
+                    _hover={{
+                      bgColor: 'blackAlpha.800',
+                      transition: '0.5s ease-in-out',
+                      color: 'red.300',
+                    }}
                   >
                     <Box px={2}>
                       <ShieldCheck size={'4em'} weight={'duotone'} />
@@ -43,7 +49,9 @@ export function SectionFour() {
                           fontSize={{ base: 'sm', md: 'lg' }}
                           textAlign={{ base: 'center', md: 'center', lg: 'center' }}
                         >
-                          <Text fontSize={'2xl'}>Garantia de 7 Dias</Text>
+                          <Text fontSize={'2xl'} color={'red.300'}>
+                            Garantia de 7 Dias
+                          </Text>
                           <Text fontWeight={'normal'} as="span">
                             Nesse prazo, se o curso não for o que esperava, é só pedir
                             seu investimento de volta.
@@ -60,6 +68,12 @@ export function SectionFour() {
                     backdropFilter={'1rem'}
                     bgColor={'whiteAlpha.50'}
                     rounded={'lg'}
+                    shadow={'lg'}
+                    _hover={{
+                      bgColor: 'blackAlpha.800',
+                      transition: '0.5s ease-in-out',
+                      color: 'red.300',
+                    }}
                   >
                     <Box px={2}>
                       <Lock size={'4em'} weight={'duotone'} />
@@ -70,7 +84,9 @@ export function SectionFour() {
                           fontSize={{ base: 'sm', md: 'lg' }}
                           textAlign={{ base: 'center', md: 'center', lg: 'center' }}
                         >
-                          <Text fontSize={'2xl'}>Pagamento Seguro</Text>
+                          <Text fontSize={'2xl'} color={'red.300'}>
+                            Pagamento Seguro
+                          </Text>
                           <Text fontWeight={'normal'} as="span">
                             A sua compra é 100% segura e todos os seus dados são
                             protegidos.
@@ -87,6 +103,12 @@ export function SectionFour() {
                     backdropFilter={'1rem'}
                     bgColor={'whiteAlpha.50'}
                     rounded={'lg'}
+                    shadow={'lg'}
+                    _hover={{
+                      bgColor: 'blackAlpha.800',
+                      transition: '0.5s ease-in-out',
+                      color: 'red.300',
+                    }}
                   >
                     <Box px={2}>
                       <Laptop size={'4em'} weight={'duotone'} />
@@ -97,7 +119,9 @@ export function SectionFour() {
                           fontSize={{ base: 'sm', md: 'lg' }}
                           textAlign={{ base: 'center', md: 'center', lg: 'center' }}
                         >
-                          <Text fontSize={'2xl'}>Acesso Imediato</Text>
+                          <Text fontSize={'2xl'} color={'red.300'}>
+                            Acesso Imediato
+                          </Text>
                           <Text fontWeight={'normal'} as="span">
                             Assim que seu pagamento for processado, você terá acesso
                             imediato ao conteúdo do curso.
@@ -109,7 +133,7 @@ export function SectionFour() {
                 </SimpleGrid>
               </Flex>
             </Box>
-            <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
+            <Stack direction={{ base: 'column', md: 'row' }} spacing={4} pt={6}>
               <ButtonCta />
             </Stack>
           </Stack>
