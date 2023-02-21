@@ -17,6 +17,7 @@ export function Navbar() {
             alt={'Logo Albuquerque'}
             width={40}
             height={40}
+            quality={75}
             priority
           />
         </VStack>

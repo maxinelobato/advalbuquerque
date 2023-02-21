@@ -26,7 +26,7 @@ export function SectionOne() {
                   fontStyle={'normal'}
                   fontFamily={'roboto'}
                   fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}
-                  textAlign={{ base: 'center', md: 'center', lg: 'left' }}
+                  textAlign={{ base: 'center', md: 'left', lg: 'left' }}
                   textTransform={'uppercase'}
                 >
                   Prática em Audiências Criminais
@@ -35,8 +35,8 @@ export function SectionOne() {
                   as={'h2'}
                   fontWeight={400}
                   fontFamily={'roboto'}
-                  fontSize={{ base: 'lg', md: '2xl', lg: '3xl' }}
-                  textAlign={{ base: 'center', md: 'center', lg: 'left' }}
+                  fontSize={{ base: 'lg', md: '2xs', lg: '2xl' }}
+                  textAlign={{ base: 'center', md: 'left', lg: 'left' }}
                   color={'whiteAlpha.800'}
                 >
                   Saiba como usar as melhores técnicas de interrogatório, raciocínio

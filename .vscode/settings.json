@@ -2,11 +2,15 @@
   "typescript.tsdk": "node_modules\\typescript\\lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "cSpell.words": [
+    "acareação",
+    "Bônus",
     "buttoncta",
     "lucide",
+    "Mídia",
     "sectionfive",
     "sectionfour",
     "sectionone",
+    "sectionsix",
     "sectionthree",
     "sectiontwo"
   ]
