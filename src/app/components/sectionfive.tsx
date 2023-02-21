@@ -40,7 +40,7 @@ export function SectionFive() {
                   <Stack spacing="3" textAlign="center">
                     <Text
                       as={'s'}
-                      color={'blackAlpha.700'}
+                      color={'whiteAlpha.900'}
                       fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
                       transform="scale(1.2)"
                     >
@@ -48,6 +48,8 @@ export function SectionFive() {
                     </Text>
                     <Text color={'whiteAlpha.900'} transform="scale(1.2)">
                       Por 12x de{' '}
+                    </Text>
+                    <Text color={'whiteAlpha.900'} transform="scale(1.2)">
                       <Text as={'span'} color={'whiteAlpha.600'} fontWeight={'bold'}>
                         R$
                       </Text>{' '}

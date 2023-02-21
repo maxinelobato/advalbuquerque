@@ -19,7 +19,7 @@ export function SectionThree() {
           justifyContent={{ base: 'center', md: 'center' }}
           direction={{ base: 'column', md: 'row' }}
         >
-          <SimpleGrid columns={{ base: 3, md: 3 }} spacing={[3, 6]}>
+          <SimpleGrid columns={{ base: 3, md: 3 }} spacing={[16, 6]}>
             <VStack align={'center'} py={5}>
               <Box color={'red.400'} px={2}>
                 <Detective size={'4em'} weight={'duotone'} />
@@ -27,7 +27,7 @@ export function SectionThree() {
               <VStack align={'center'}>
                 <Box>
                   <Heading
-                    fontSize={{ base: 'sm', md: 'lg' }}
+                    fontSize={{ base: 'smaller', md: 'lg' }}
                     textAlign={{ base: 'center', md: 'center', lg: 'center' }}
                   >
                     <Text>Técnicas de Interrogatório</Text>
@@ -45,7 +45,7 @@ export function SectionThree() {
               <VStack align={'center'}>
                 <Box>
                   <Heading
-                    fontSize={{ base: 'sm', md: 'lg' }}
+                    fontSize={{ base: 'smaller', md: 'lg' }}
                     textAlign={{ base: 'center', md: 'center', lg: 'center' }}
                   >
                     <Text>Raciocínio Lógico Jurídico</Text>
@@ -63,7 +63,7 @@ export function SectionThree() {
               <VStack align={'center'}>
                 <Box>
                   <Heading
-                    fontSize={{ base: 'sm', md: 'lg' }}
+                    fontSize={{ base: 'smaller', md: 'lg' }}
                     textAlign={{ base: 'center', md: 'center', lg: 'center' }}
                   >
                     <Text>Técnicas de Persuasão</Text>
@@ -75,7 +75,7 @@ export function SectionThree() {
               </VStack>
             </VStack>
           </SimpleGrid>
-          <SimpleGrid columns={{ base: 2, md: 2 }} spacing={[2, 3]}>
+          <SimpleGrid columns={2} spacing={[2, 3]}>
             <VStack align={'center'} py={5}>
               <Box color={'red.400'} px={2}>
                 <Desktop size={'4em'} weight={'duotone'} />

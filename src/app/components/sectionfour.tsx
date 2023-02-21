@@ -29,10 +29,12 @@ export function SectionFour() {
                     align={'center'}
                     py={5}
                     p={5}
-                    backdropBlur={'lg'}
-                    backdropFilter={'1rem'}
-                    bgColor={'whiteAlpha.50'}
+                    bgColor={'whiteAlpha.200'}
+                    backdropBlur={'1rem'}
+                    backdropFilter="blur(5px)"
                     rounded={'lg'}
+                    border={'1px'}
+                    borderColor={'whiteAlpha.200'}
                     shadow={'lg'}
                     _hover={{
                       bgColor: 'blackAlpha.800',
@@ -64,10 +66,12 @@ export function SectionFour() {
                     align={'center'}
                     py={5}
                     p={5}
-                    backdropBlur={'lg'}
-                    backdropFilter={'1rem'}
-                    bgColor={'whiteAlpha.50'}
+                    bgColor={'whiteAlpha.200'}
+                    backdropBlur={'1rem'}
+                    backdropFilter="blur(5px)"
                     rounded={'lg'}
+                    border={'1px'}
+                    borderColor={'whiteAlpha.200'}
                     shadow={'lg'}
                     _hover={{
                       bgColor: 'blackAlpha.800',
@@ -99,10 +103,12 @@ export function SectionFour() {
                     align={'center'}
                     py={5}
                     p={5}
-                    backdropBlur={'lg'}
-                    backdropFilter={'1rem'}
-                    bgColor={'whiteAlpha.50'}
+                    bgColor={'whiteAlpha.200'}
+                    backdropBlur={'1rem'}
+                    backdropFilter="blur(5px)"
                     rounded={'lg'}
+                    border={'1px'}
+                    borderColor={'whiteAlpha.200'}
                     shadow={'lg'}
                     _hover={{
                       bgColor: 'blackAlpha.800',
