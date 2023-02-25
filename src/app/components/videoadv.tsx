@@ -1,7 +1,5 @@
 'use client';
 
-import styles from './videoadv.module.css';
-
 export function VideoAdv() {
   return (
     <>
