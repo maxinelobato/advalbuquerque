@@ -19,7 +19,6 @@ export function SectionSix() {
           <Container maxW={'5xl'}>
             <Stack spacing={6} w={'full'} p={6}>
               <Heading
-                as={'h1'}
                 fontWeight={900}
                 fontStyle={'normal'}
                 fontFamily={'roboto'}
@@ -28,7 +27,6 @@ export function SectionSix() {
               >
                 Aulas Bônus
                 <Text
-                  as={'h2'}
                   fontWeight={400}
                   fontFamily={'roboto'}
                   fontSize={{ base: 'lg', md: '2xs', lg: '2xl' }}
@@ -73,7 +71,6 @@ export function SectionSix() {
                       />
                       <Image
                         alt={'Hero Image'}
-                        style={{ objectFit: 'cover' }}
                         width={600}
                         height={600}
                         src={'/img/bgAlbuquerque2.png'}
@@ -106,7 +103,6 @@ export function SectionSix() {
                       />
                       <Image
                         alt={'Hero Image'}
-                        style={{ objectFit: 'cover' }}
                         width={600}
                         height={600}
                         src={'/img/bgAlbuquerque2.png'}
@@ -118,7 +114,6 @@ export function SectionSix() {
             </Stack>
             <Stack spacing={6} w={'full'} p={6}>
               <Heading
-                as={'h1'}
                 fontWeight={900}
                 fontStyle={'normal'}
                 fontFamily={'roboto'}
@@ -127,7 +122,6 @@ export function SectionSix() {
               >
                 Bônus Exclusivo
                 <Text
-                  as={'h2'}
                   fontWeight={400}
                   fontFamily={'roboto'}
                   fontSize={{ base: 'lg', md: '2xs', lg: '2xl' }}
@@ -151,8 +145,7 @@ export function SectionSix() {
                     >
                       <Image
                         alt={'Hero Image'}
-                        style={{ objectFit: 'cover' }}
-                        width={300}
+                        width={400}
                         height={500}
                         src={'/img/ebook.png'}
                       />
