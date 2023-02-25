@@ -4,7 +4,6 @@ import {
   Box,
   Flex,
   Heading,
-  IconButton,
   Stack,
   Text,
   useColorModeValue,
@@ -12,7 +11,6 @@ import {
   IconProps,
   Container,
 } from '@chakra-ui/react';
-import { Play } from 'phosphor-react';
 import { ButtonCta } from './buttoncta';
 import { Navbar } from './navbar';
 import { VideoAdv } from './videoadv';
