@@ -13,7 +13,6 @@ import {
 } from '@chakra-ui/react';
 import { ButtonCta } from './buttoncta';
 import { ButtonPlay } from './buttonplay';
-import { Navbar } from './navbar';
 import { NavbarProm } from './navbarprom';
 import { VideoAdv } from './videoadv';
 

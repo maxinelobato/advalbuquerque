@@ -1,4 +1,4 @@
-'user client';
+'use client';
 
 import { Box, Heading, SimpleGrid, Text, VStack } from '@chakra-ui/react';
 import { Detective, Brain, SpeakerHigh, Scales, Desktop } from 'phosphor-react';

@@ -1,4 +1,4 @@
-'user client';
+'use client';
 
 import { Box, Stack, Container, Heading, Flex, Highlight } from '@chakra-ui/react';
 import { SectionThree } from './sectionthree';
