@@ -1,7 +1,7 @@
 'use client';
 
 import { Button, Link } from '@chakra-ui/react';
-import { ArrowFatRight, ArrowRight } from 'phosphor-react';
+import { ArrowRight } from 'phosphor-react';
 
 export function ButtonCta() {
   return (
@@ -10,20 +10,20 @@ export function ButtonCta() {
         as={Link}
         rounded={'full'}
         size={'lg'}
-        bg={'blackAlpha.900'}
+        bg={'red.700'}
         color={'whiteAlpha.900'}
-        shadow={'dark-lg'}
+        shadow={'lg'}
         _hover={{
-          bg: 'red.800',
+          bg: 'whiteAlpha.900',
+          color: 'red.700',
           transform: 'scale(1.1)',
-          border: '1px solid',
-          borderColor: 'whiteAlpha.900',
+          transition: '0.5s',
         }}
         href={
           'https://pay.hotmart.com/S78406296U?sck=HOTMART_PRODUCT_PAGE&bid=1676862918160'
         }
         style={{ textDecoration: 'none' }}
-        rightIcon={<ArrowRight size={24} weight="bold" />}
+        rightIcon={<ArrowRight size={24} weight={'bold'} />}
         isExternal
       >
         Quero me inscrever!

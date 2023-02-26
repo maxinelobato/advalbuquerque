@@ -12,29 +12,24 @@ import {
   Container,
 } from '@chakra-ui/react';
 import { ButtonCta } from './buttoncta';
+import { ButtonPlay } from './buttonplay';
 import { Navbar } from './navbar';
+import { NavbarProm } from './navbarprom';
 import { VideoAdv } from './videoadv';
 
 export function SectionOne() {
   return (
     <>
-      {/* <Box
-        bgImage={'/img/bgImage.jpg'}
-        bgSize={'cover'}
-        bgPos={'center'}
-        bgRepeat={'no-repeat'}
-        height={'100%'}
-      > */}
       <Box bgGradient={'linear(to-r, gray.900, red.800, transparent)'}>
-        <Navbar />
+        <NavbarProm />
         <Container maxW={'7xl'}>
           <Stack
             align={'center'}
             spacing={{ base: 8, md: 10 }}
             py={{ base: 20, md: 28 }}
-            direction={{ base: 'column', md: 'row' }}
+            direction={{ base: 'column-reverse', md: 'row' }}
           >
-            <Stack flex={1} spacing={{ base: 5, md: 5 }}>
+            <Stack flex={1} spacing={{ base: 5, md: 5 }} zIndex={3}>
               <Heading
                 fontWeight={900}
                 fontStyle={'normal'}
@@ -55,8 +50,12 @@ export function SectionOne() {
                 Saiba como usar as melhores técnicas de interrogatório, raciocínio
                 lógico jurídico e técnicas de persuasão.
               </Text>
-              <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
+              <Stack
+                spacing={{ base: 4, sm: 6 }}
+                direction={{ base: 'column', md: 'row' }}
+              >
                 <ButtonCta />
+                <ButtonPlay />
               </Stack>
             </Stack>
             <Flex
@@ -72,16 +71,16 @@ export function SectionOne() {
                 position={'absolute'}
                 top={'-20%'}
                 left={0}
-                zIndex={1}
                 color={useColorModeValue('blackAlpha.50', 'blackAlpha.800')}
+                zIndex={1}
               />
               <Box
                 position={'relative'}
                 rounded={'lg'}
-                boxShadow={'dark-lg'}
                 width={'full'}
                 overflow={'hidden'}
                 zIndex={1}
+                style={{ filter: 'drop-shadow(0 0 0.75rem #fff)' }}
               >
                 <VideoAdv />
               </Box>
@@ -89,7 +88,6 @@ export function SectionOne() {
           </Stack>
         </Container>
       </Box>
-      {/* </Box> */}
     </>
   );
 }

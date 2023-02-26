@@ -9,7 +9,7 @@ import {
   SimpleGrid,
 } from '@chakra-ui/react';
 import Image from 'next/image';
-import { GraduationCap, Play, PlayCircle } from 'phosphor-react';
+import { PlayCircle } from 'phosphor-react';
 
 export function SectionSix() {
   return (
@@ -59,8 +59,7 @@ export function SectionSix() {
                     >
                       <IconButton
                         aria-label={'Play Button'}
-                        variant={'ghost'}
-                        _hover={{ bg: 'transparent' }}
+                        style={{ pointerEvents: 'none' }}
                         icon={<PlayCircle size={64} weight={'fill'} />}
                         size={'lg'}
                         color={'white'}
@@ -91,8 +90,7 @@ export function SectionSix() {
                     >
                       <IconButton
                         aria-label={'Play Button'}
-                        variant={'ghost'}
-                        _hover={{ bg: 'transparent' }}
+                        style={{ pointerEvents: 'none' }}
                         icon={<PlayCircle size={64} weight={'fill'} />}
                         size={'lg'}
                         color={'white'}
