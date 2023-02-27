@@ -12,14 +12,19 @@ export function SectionTwo() {
             <Stack spacing={6} w={'full'} p={6}>
               <Heading
                 fontSize={{ base: 'lg', md: 'lg', lg: '2xl' }}
-                fontWeight={500}
+                fontWeight={'medium'}
                 textAlign={'center'}
-                fontFamily={'roboto'}
                 lineHeight={'tall'}
               >
                 <Highlight
                   query={['preparar', 'audiências criminais', 'presencial', 'virtual']}
-                  styles={{ px: '1', py: '1', bg: 'red.900', color: 'whiteAlpha.900' }}
+                  styles={{
+                    px: '1',
+                    py: '1',
+                    bg: 'red.900',
+                    color: 'whiteAlpha.900',
+                    rounded: 'full',
+                  }}
                 >
                   O curso prático de audiência criminal terá como objetivo demonstrar ao
                   aluno como se preparar para audiências criminais seja presencial ou
@@ -28,7 +33,13 @@ export function SectionTwo() {
                 <br />
                 <Highlight
                   query={['tática à prática', 'expert']}
-                  styles={{ px: '1', py: '1', bg: 'red.900', color: 'whiteAlpha.900' }}
+                  styles={{
+                    px: '1',
+                    py: '1',
+                    bg: 'red.900',
+                    color: 'whiteAlpha.900',
+                    rounded: 'full',
+                  }}
                 >
                   O curso será literalmente da tática à prática. O aluno terá todo o
                   aporte teórico para que possa ser um expert na atuação da advocacia
@@ -42,7 +53,13 @@ export function SectionTwo() {
                     'território nacional',
                     '5 módulos',
                   ]}
-                  styles={{ px: '1', py: '1', bg: 'red.900', color: 'whiteAlpha.900' }}
+                  styles={{
+                    px: '1',
+                    py: '1',
+                    bg: 'red.900',
+                    color: 'whiteAlpha.900',
+                    rounded: 'full',
+                  }}
                 >
                   As aulas todas serão produzidas pelo Professor Raimundo Albuquerque
                   com experiência comprovada e atuação em todo o território nacional, o
@@ -51,7 +68,7 @@ export function SectionTwo() {
                 </Highlight>
               </Heading>
             </Stack>
-            <Stack direction="column" alignItems="center" p={6}>
+            <Stack direction='column' alignItems='center' p={6}>
               <Box>
                 <Flex
                   justifyContent={{ base: 'center', md: 'center' }}

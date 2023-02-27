@@ -41,7 +41,6 @@ export function Footer() {
                     <Text
                       textAlign={'center'}
                       color={'whiteAlpha.700'}
-                      fontFamily={'roboto'}
                       fontWeight={'light'}
                       fontSize={'sm'}
                     >
@@ -53,7 +52,6 @@ export function Footer() {
                     <Text
                       textAlign={'center'}
                       color={'whiteAlpha.700'}
-                      fontFamily={'roboto'}
                       fontWeight={'light'}
                       fontSize={'sm'}
                     >
@@ -69,7 +67,6 @@ export function Footer() {
                     <Text
                       textAlign={'center'}
                       color={'whiteAlpha.700'}
-                      fontFamily={'roboto'}
                       fontWeight={'light'}
                       fontSize={'sm'}
                     >
@@ -77,21 +74,30 @@ export function Footer() {
                       cancelar sua inscrição a qualquer momento. Ao adquirir o curso
                       você está concordando com a nossa
                     </Text>
-                    <Link
-                      style={{ textDecoration: 'none' }}
-                      ml='4'
-                      onClick={() => {
-                        setOverlay(<OverlayTwo />);
-                        onOpen();
-                      }}
-                      textAlign={'center'}
-                      color={'red.400'}
-                      fontFamily={'roboto'}
-                      fontWeight={'light'}
-                      fontSize={'sm'}
+                    <Stack
+                      spacing={{ base: 4, sm: 6 }}
+                      direction={{ base: 'column', md: 'row' }}
+                      justify={'center'}
+                      pt={10}
                     >
-                      Política de Privacidade
-                    </Link>
+                      <Button
+                        variant={'unstyled'}
+                        maxW={'sm'}
+                        size={'sm'}
+                        style={{ textDecoration: 'none' }}
+                        onClick={() => {
+                          setOverlay(<OverlayTwo />);
+                          onOpen();
+                        }}
+                        textAlign={'center'}
+                        color={'red.400'}
+                        fontWeight={'light'}
+                        fontSize={'sm'}
+                      >
+                        Política de Privacidade
+                      </Button>
+                    </Stack>
+
                     <Modal
                       isCentered
                       isOpen={isOpen}
@@ -237,7 +243,6 @@ export function Footer() {
                 as={Link}
                 textAlign='center'
                 fontSize='smaller'
-                fontFamily={'roboto'}
                 color='whiteAlpha.700'
                 fontWeight='bold'
                 href={'https://www.instagram.com/signature.midia/'}

@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import {
   Box,
@@ -10,50 +10,48 @@ import {
   Icon,
   IconProps,
   Container,
-} from "@chakra-ui/react";
-import { ButtonCta } from "./buttoncta";
-import { ButtonPlay } from "./buttonplay";
-import { Navbar } from "./navbar";
-import { NavbarProm } from "./navbarprom";
-import { VideoAdv } from "./videoadv";
+} from '@chakra-ui/react';
+import { ButtonCta } from './buttoncta';
+import { ButtonPlay } from './buttonplay';
+import { Navbar } from './navbar';
+import { NavbarProm } from './navbarprom';
+import { VideoAdv } from './videoadv';
 
 export function SectionOne() {
   return (
     <>
       <NavbarProm />
-      <Box bgGradient={"linear(to-r, gray.900, red.800, transparent)"}>
+      <Box bgGradient={'linear(to-r, gray.900, red.800, transparent)'}>
         <Navbar />
-        <Container maxW={"7xl"}>
+        <Container maxW={'7xl'}>
           <Stack
-            align={"center"}
+            align={'center'}
             spacing={{ base: 8, md: 10 }}
             py={{ base: 20, md: 28 }}
-            direction={{ base: "column-reverse", md: "column-reverse", lg: "row" }}
+            direction={{ base: 'column-reverse', md: 'column-reverse', lg: 'row' }}
           >
             <Stack flex={1} spacing={{ base: 5, md: 5 }} zIndex={3}>
               <Heading
-                fontWeight={900}
-                fontStyle={"normal"}
-                fontFamily={"roboto"}
-                fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
-                textAlign={{ base: "center", md: "left", lg: "left" }}
-                textTransform={"uppercase"}
+                fontWeight={'medium'}
+                fontStyle={'normal'}
+                fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}
+                textAlign={{ base: 'center', md: 'left', lg: 'left' }}
+                textTransform={'uppercase'}
               >
                 Prática em Audiências Criminais
               </Heading>
               <Text
-                fontWeight={400}
-                fontFamily={"roboto"}
-                fontSize={{ base: "lg", md: "2xs", lg: "2xl" }}
-                textAlign={{ base: "center", md: "left", lg: "left" }}
-                color={"whiteAlpha.800"}
+                fontWeight={'normal'}
+                fontSize={{ base: 'lg', md: '2xs', lg: '2xl' }}
+                textAlign={{ base: 'center', md: 'left', lg: 'left' }}
+                color={'whiteAlpha.800'}
               >
                 Saiba como usar as melhores técnicas de interrogatório, raciocínio
                 lógico jurídico e técnicas de persuasão.
               </Text>
               <Stack
                 spacing={{ base: 4, sm: 6 }}
-                direction={{ base: "column", md: "row" }}
+                direction={{ base: 'column', md: 'row' }}
               >
                 <ButtonCta />
                 <ButtonPlay />
@@ -61,27 +59,27 @@ export function SectionOne() {
             </Stack>
             <Flex
               flex={1}
-              justify={"center"}
-              align={"center"}
-              position={"relative"}
-              w={"full"}
+              justify={'center'}
+              align={'center'}
+              position={'relative'}
+              w={'full'}
             >
               <Blob
-                w={"100%"}
-                h={"150%"}
-                position={"absolute"}
-                top={"-20%"}
+                w={'100%'}
+                h={'150%'}
+                position={'absolute'}
+                top={'-20%'}
                 left={0}
-                color={useColorModeValue("blackAlpha.50", "blackAlpha.800")}
+                color={useColorModeValue('blackAlpha.50', 'blackAlpha.800')}
                 zIndex={1}
               />
               <Box
-                position={"relative"}
-                rounded={"lg"}
-                width={"full"}
-                overflow={"hidden"}
+                position={'relative'}
+                rounded={'lg'}
+                width={'full'}
+                overflow={'hidden'}
                 zIndex={1}
-                style={{ filter: "drop-shadow(0 0 0.75rem #fff)" }}
+                style={{ filter: 'drop-shadow(0 0 0.75rem #fff)' }}
               >
                 <VideoAdv />
               </Box>
@@ -96,7 +94,7 @@ export function SectionOne() {
 export const Blob = (props: IconProps) => {
   return (
     <Icon
-      width={"100%"}
+      width={'100%'}
       viewBox='0 0 578 440'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'

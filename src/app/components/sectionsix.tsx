@@ -21,16 +21,13 @@ export function SectionSix() {
           <Container maxW={'5xl'}>
             <Stack spacing={6} w={'full'} p={6}>
               <Heading
-                fontWeight={900}
-                fontStyle={'normal'}
-                fontFamily={'roboto'}
+                fontWeight={'medium'}
                 fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}
                 textAlign={'center'}
               >
                 Aulas Bônus
                 <Text
                   fontWeight={400}
-                  fontFamily={'roboto'}
                   fontSize={{ base: 'lg', md: '2xs', lg: '2xl' }}
                   textAlign={'center'}
                   color={'whiteAlpha.800'}
@@ -39,7 +36,7 @@ export function SectionSix() {
                 </Text>
               </Heading>
             </Stack>
-            <Stack direction="column" alignItems="center" p={6}>
+            <Stack direction='column' alignItems='center' p={6}>
               <Box>
                 <Flex
                   justifyContent={{ base: 'center', md: 'center' }}
@@ -53,7 +50,7 @@ export function SectionSix() {
                       overflow={'hidden'}
                       bgColor={'whiteAlpha.200'}
                       backdropBlur={'1rem'}
-                      backdropFilter="blur(5px)"
+                      backdropFilter='blur(5px)'
                       rounded={'lg'}
                       border={'1px'}
                       borderColor={'whiteAlpha.200'}
@@ -84,7 +81,7 @@ export function SectionSix() {
                       overflow={'hidden'}
                       bgColor={'whiteAlpha.200'}
                       backdropBlur={'1rem'}
-                      backdropFilter="blur(5px)"
+                      backdropFilter='blur(5px)'
                       rounded={'lg'}
                       border={'1px'}
                       borderColor={'whiteAlpha.200'}
@@ -114,16 +111,13 @@ export function SectionSix() {
             </Stack>
             <Stack spacing={6} w={'full'} p={6}>
               <Heading
-                fontWeight={900}
-                fontStyle={'normal'}
-                fontFamily={'roboto'}
+                fontWeight={'medium'}
                 fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}
                 textAlign={'center'}
               >
                 Bônus Exclusivo
                 <Text
                   fontWeight={400}
-                  fontFamily={'roboto'}
                   fontSize={{ base: 'lg', md: '2xs', lg: '2xl' }}
                   textAlign={'center'}
                   color={'whiteAlpha.800'}
@@ -132,7 +126,7 @@ export function SectionSix() {
                 </Text>
               </Heading>
             </Stack>
-            <Stack direction="column" alignItems="center" p={6}>
+            <Stack direction='column' alignItems='center' p={6}>
               <Box>
                 <Flex
                   justifyContent={{ base: 'center', md: 'center' }}

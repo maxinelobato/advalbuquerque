@@ -18,7 +18,7 @@ export function SectionFour() {
     <>
       <Box bgGradient={'linear(to-r, gray.900, red.800, transparent 100%)'}>
         <Container maxW={'5xl'}>
-          <Stack direction="column" alignItems="center" p={8}>
+          <Stack direction='column' alignItems='center' p={8}>
             <Box>
               <Flex
                 justifyContent={{ base: 'center', md: 'center' }}
@@ -31,7 +31,7 @@ export function SectionFour() {
                     p={5}
                     bgColor={'whiteAlpha.200'}
                     backdropBlur={'1rem'}
-                    backdropFilter="blur(5px)"
+                    backdropFilter='blur(5px)'
                     rounded={'lg'}
                     border={'1px'}
                     borderColor={'whiteAlpha.200'}
@@ -54,7 +54,7 @@ export function SectionFour() {
                           <Text fontSize={'2xl'} color={'red.300'}>
                             Garantia de 7 Dias
                           </Text>
-                          <Text fontWeight={'normal'} as="span">
+                          <Text fontWeight={'normal'} as='span'>
                             Nesse prazo, se o curso não for o que esperava, é só pedir
                             seu investimento de volta.
                           </Text>
@@ -68,7 +68,7 @@ export function SectionFour() {
                     p={5}
                     bgColor={'whiteAlpha.200'}
                     backdropBlur={'1rem'}
-                    backdropFilter="blur(5px)"
+                    backdropFilter='blur(5px)'
                     rounded={'lg'}
                     border={'1px'}
                     borderColor={'whiteAlpha.200'}
@@ -91,7 +91,7 @@ export function SectionFour() {
                           <Text fontSize={'2xl'} color={'red.300'}>
                             Pagamento Seguro
                           </Text>
-                          <Text fontWeight={'normal'} as="span">
+                          <Text fontWeight={'normal'} as='span'>
                             A sua compra é 100% segura e todos os seus dados são
                             protegidos.
                           </Text>
@@ -105,7 +105,7 @@ export function SectionFour() {
                     p={5}
                     bgColor={'whiteAlpha.200'}
                     backdropBlur={'1rem'}
-                    backdropFilter="blur(5px)"
+                    backdropFilter='blur(5px)'
                     rounded={'lg'}
                     border={'1px'}
                     borderColor={'whiteAlpha.200'}
@@ -128,7 +128,7 @@ export function SectionFour() {
                           <Text fontSize={'2xl'} color={'red.300'}>
                             Acesso Imediato
                           </Text>
-                          <Text fontWeight={'normal'} as="span">
+                          <Text fontWeight={'normal'} as='span'>
                             Assim que seu pagamento for processado, você terá acesso
                             imediato ao conteúdo do curso.
                           </Text>

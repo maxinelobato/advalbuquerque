@@ -1,11 +1,12 @@
-"use client";
+'use client';
 
-import { Footer } from "./components/footer";
-import { SectionFive } from "./components/sectionfive";
-import { SectionFour } from "./components/sectionfour";
-import { SectionOne } from "./components/sectionone";
-import { SectionSix } from "./components/sectionsix";
-import { SectionTwo } from "./components/sectiontwo";
+import { AccordionFaq } from './components/accordionfaq';
+import { Footer } from './components/footer';
+import { SectionFive } from './components/sectionfive';
+import { SectionFour } from './components/sectionfour';
+import { SectionOne } from './components/sectionone';
+import { SectionSix } from './components/sectionsix';
+import { SectionTwo } from './components/sectiontwo';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <SectionSix />
       <SectionFour />
       <SectionFive />
+      <AccordionFaq />
       <Footer />
     </>
   );
