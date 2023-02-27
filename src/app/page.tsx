@@ -1,5 +1,6 @@
 "use client";
 
+import { Footer } from "./components/footer";
 import { SectionFive } from "./components/sectionfive";
 import { SectionFour } from "./components/sectionfour";
 import { SectionOne } from "./components/sectionone";
@@ -14,6 +15,7 @@ export default function Home() {
       <SectionSix />
       <SectionFour />
       <SectionFive />
+      <Footer />
     </>
   );
 }
