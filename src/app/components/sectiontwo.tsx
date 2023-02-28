@@ -72,7 +72,7 @@ export function SectionTwo() {
               <Box>
                 <Flex
                   justifyContent={{ base: 'center', md: 'center' }}
-                  direction={{ base: 'column-reverse', md: 'column' }}
+                  direction={{ base: 'column', md: 'row' }}
                 >
                   <SectionThree />
                 </Flex>

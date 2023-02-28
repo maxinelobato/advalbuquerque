@@ -1,12 +1,12 @@
 'use client';
 
-import { Box, Heading, SimpleGrid, Text, VStack } from '@chakra-ui/react';
+import { Box, Flex, Heading, SimpleGrid, Stack, Text, VStack } from '@chakra-ui/react';
 import { Detective, Brain, SpeakerHigh, Scales, Desktop } from 'phosphor-react';
 
 export function SectionThree() {
   return (
     <>
-      <SimpleGrid columns={{ base: 3, md: 3 }} spacing={[8, 6]}>
+      <SimpleGrid columns={{ base: 2, md: 3 }} spacing={[2, 4]}>
         <VStack align={'center'} py={5}>
           <Box color={'red.400'} px={2}>
             <Detective size={'4em'} weight={'duotone'} />
@@ -18,7 +18,7 @@ export function SectionThree() {
                 textAlign={{ base: 'center', md: 'center', lg: 'center' }}
               >
                 <Text>Técnicas de Interrogatório</Text>
-                <Text fontWeight={'normal'} as="span">
+                <Text fontWeight={'normal'} as='span'>
                   Técnicas de Interrogatório
                 </Text>
               </Heading>
@@ -36,7 +36,7 @@ export function SectionThree() {
                 textAlign={{ base: 'center', md: 'center', lg: 'center' }}
               >
                 <Text>Raciocínio Lógico Jurídico</Text>
-                <Text fontWeight={'normal'} as="span">
+                <Text fontWeight={'normal'} as='span'>
                   Raciocínio Lógico Jurídico
                 </Text>
               </Heading>
@@ -54,16 +54,13 @@ export function SectionThree() {
                 textAlign={{ base: 'center', md: 'center', lg: 'center' }}
               >
                 <Text>Técnicas de Persuasão</Text>
-                <Text fontWeight={'normal'} as="span">
+                <Text fontWeight={'normal'} as='span'>
                   Técnicas de Persuasão
                 </Text>
               </Heading>
             </Box>
           </VStack>
         </VStack>
-      </SimpleGrid>
-
-      <SimpleGrid columns={2} spacing={[2, 3]}>
         <VStack align={'center'} py={5}>
           <Box color={'red.400'} px={2}>
             <Desktop size={'4em'} weight={'duotone'} />
@@ -75,7 +72,7 @@ export function SectionThree() {
                 textAlign={{ base: 'center', md: 'center', lg: 'center' }}
               >
                 <Text>Prática Criminal Online</Text>
-                <Text fontWeight={'normal'} as="span">
+                <Text fontWeight={'normal'} as='span'>
                   Prática Criminal Online
                 </Text>
               </Heading>
@@ -93,7 +90,7 @@ export function SectionThree() {
                 textAlign={{ base: 'center', md: 'center', lg: 'center' }}
               >
                 <Text>Prática em Audiência Criminal</Text>
-                <Text fontWeight={'normal'} as="span">
+                <Text fontWeight={'normal'} as='span'>
                   Prática em Audiência Criminal
                 </Text>
               </Heading>

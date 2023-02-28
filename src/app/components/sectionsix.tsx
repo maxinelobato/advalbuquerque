@@ -32,7 +32,7 @@ export function SectionSix() {
                   textAlign={'center'}
                   color={'whiteAlpha.800'}
                 >
-                  Conteúdo adicional de Social Mídia e Tráfego Pago
+                  Google Ads para Advogados
                 </Text>
               </Heading>
             </Stack>
@@ -42,70 +42,37 @@ export function SectionSix() {
                   justifyContent={{ base: 'center', md: 'center' }}
                   direction={{ base: 'column-reverse', md: 'column' }}
                 >
-                  <SimpleGrid columns={{ base: 1, md: 2 }} spacing={[2, 6]}>
-                    <Box
-                      position={'relative'}
-                      height={'300px'}
-                      width={'full'}
-                      overflow={'hidden'}
-                      bgColor={'whiteAlpha.200'}
-                      backdropBlur={'1rem'}
-                      backdropFilter='blur(5px)'
-                      rounded={'lg'}
-                      border={'1px'}
-                      borderColor={'whiteAlpha.200'}
-                      shadow={'lg'}
-                    >
-                      <IconButton
-                        aria-label={'Play Button'}
-                        style={{ pointerEvents: 'none' }}
-                        icon={<PlayCircle size={64} weight={'fill'} />}
-                        size={'lg'}
-                        color={'white'}
-                        position={'absolute'}
-                        left={'50%'}
-                        top={'50%'}
-                        transform={'translateX(-50%) translateY(-50%)'}
-                      />
-                      <Image
-                        alt={'Hero Image'}
-                        width={600}
-                        height={600}
-                        src={'/img/bgAlbuquerque2.png'}
-                      />
-                    </Box>
-                    <Box
-                      position={'relative'}
-                      height={'300px'}
-                      width={'full'}
-                      overflow={'hidden'}
-                      bgColor={'whiteAlpha.200'}
-                      backdropBlur={'1rem'}
-                      backdropFilter='blur(5px)'
-                      rounded={'lg'}
-                      border={'1px'}
-                      borderColor={'whiteAlpha.200'}
-                      shadow={'lg'}
-                    >
-                      <IconButton
-                        aria-label={'Play Button'}
-                        style={{ pointerEvents: 'none' }}
-                        icon={<PlayCircle size={64} weight={'fill'} />}
-                        size={'lg'}
-                        color={'white'}
-                        position={'absolute'}
-                        left={'50%'}
-                        top={'50%'}
-                        transform={'translateX(-50%) translateY(-50%)'}
-                      />
-                      <Image
-                        alt={'Hero Image'}
-                        width={600}
-                        height={600}
-                        src={'/img/bgAlbuquerque2.png'}
-                      />
-                    </Box>
-                  </SimpleGrid>
+                  <Box
+                    position={'relative'}
+                    height={'300px'}
+                    width={'full'}
+                    overflow={'hidden'}
+                    bgColor={'whiteAlpha.200'}
+                    backdropBlur={'1rem'}
+                    backdropFilter='blur(5px)'
+                    rounded={'lg'}
+                    border={'1px'}
+                    borderColor={'whiteAlpha.200'}
+                    shadow={'lg'}
+                  >
+                    <IconButton
+                      aria-label={'Play Button'}
+                      style={{ pointerEvents: 'none' }}
+                      icon={<PlayCircle size={64} weight={'fill'} />}
+                      size={'lg'}
+                      color={'white'}
+                      position={'absolute'}
+                      left={'50%'}
+                      top={'50%'}
+                      transform={'translateX(-50%) translateY(-50%)'}
+                    />
+                    <Image
+                      alt={'Hero Image'}
+                      width={600}
+                      height={600}
+                      src={'/img/bgAlbuquerque2.png'}
+                    />
+                  </Box>
                 </Flex>
               </Box>
             </Stack>
@@ -115,7 +82,7 @@ export function SectionSix() {
                 fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}
                 textAlign={'center'}
               >
-                Bônus Exclusivo
+                E-book Exclusivo
                 <Text
                   fontWeight={400}
                   fontSize={{ base: 'lg', md: '2xs', lg: '2xl' }}

@@ -13,7 +13,7 @@ export function SectionFive() {
         bgRepeat={'no-repeat'}
         bgAttachment={'fixed'}
       >
-        <Box bgGradient={'linear(to-l, gray.900, red.800, transparent 70%)'}>
+        <Box bgGradient={'linear(to-b, red.800, transparent 70%)'}>
           <Stack direction={{ base: 'column', md: 'row' }} p={6}>
             <Container maxW={'lg'}>
               <Stack spacing={6} w={'full'} maxW={'2xl'} p={6}>
