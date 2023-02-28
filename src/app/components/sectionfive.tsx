@@ -7,7 +7,7 @@ export function SectionFive() {
   return (
     <>
       <Box
-        bgImage={'/img/bgImage2.jpg'}
+        bgImage={'/img/bgImage2.webp'}
         bgSize={'cover'}
         bgPos={'center'}
         bgRepeat={'no-repeat'}

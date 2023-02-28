@@ -141,7 +141,7 @@ export function SectionSix() {
                         alt={'Hero Image'}
                         width={400}
                         height={500}
-                        src={'/img/ebook.png'}
+                        src={'/img/ebook.webp'}
                       />
                     </Box>
                   </SimpleGrid>
