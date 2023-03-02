@@ -11,8 +11,6 @@ export function PrecoInvestimento() {
         bgSize={'cover'}
         bgPos={'center'}
         bgRepeat={'no-repeat'}
-        bgAttachment={'fixed'}
-        placeholder={'lazy'}
       >
         <Box bgGradient={'linear(to-b, red.800, transparent 70%)'}>
           <Stack direction={{ base: 'column', md: 'row' }} p={6}>

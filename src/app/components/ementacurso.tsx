@@ -57,9 +57,11 @@ export function EmentaCurso() {
                     <BoxStyle>
                       <Image
                         alt={'Hero Image'}
-                        width={400}
-                        height={400}
+                        width={640}
+                        height={360}
                         src={'/img/aula1.webp'}
+                        sizes='(max-width: 768px) 100vw,
+                        (max-width: 1200px) 50vw, 33vw'
                         loading={'lazy'}
                       />
                       <Text
@@ -74,8 +76,8 @@ export function EmentaCurso() {
                     <BoxStyle>
                       <Image
                         alt={'Hero Image'}
-                        width={400}
-                        height={400}
+                        width={640}
+                        height={360}
                         src={'/img/aula2.webp'}
                         loading={'lazy'}
                       />
@@ -91,8 +93,8 @@ export function EmentaCurso() {
                     <BoxStyle>
                       <Image
                         alt={'Hero Image'}
-                        width={400}
-                        height={400}
+                        width={640}
+                        height={360}
                         src={'/img/aula3.webp'}
                         loading={'lazy'}
                       />
@@ -108,8 +110,8 @@ export function EmentaCurso() {
                     <BoxStyle>
                       <Image
                         alt={'Hero Image'}
-                        width={400}
-                        height={400}
+                        width={640}
+                        height={360}
                         src={'/img/aula4.webp'}
                         loading={'lazy'}
                       />
@@ -125,8 +127,8 @@ export function EmentaCurso() {
                     <BoxStyle>
                       <Image
                         alt={'Hero Image'}
-                        width={400}
-                        height={400}
+                        width={640}
+                        height={360}
                         src={'/img/aula5.webp'}
                         loading={'lazy'}
                       />

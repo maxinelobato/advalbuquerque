@@ -14,8 +14,8 @@ export function PaginaInicial() {
         bgImage={'/img/bgImage.webp'}
         bgSize={'cover'}
         bgPos={'center'}
+        bgAttachment={'fixed'}
         bgRepeat={'no-repeat'}
-        placeholder={'lazy'}
       >
         <NavbarPromocao />
         <Box bgGradient={'linear(to-r, gray.900, red.800, transparent)'}>
