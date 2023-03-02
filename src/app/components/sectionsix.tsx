@@ -7,11 +7,9 @@ import {
   Heading,
   Text,
   Flex,
-  IconButton,
   SimpleGrid,
 } from '@chakra-ui/react';
 import Image from 'next/image';
-import { PlayCircle } from 'phosphor-react';
 
 export function SectionSix() {
   return (
@@ -25,7 +23,7 @@ export function SectionSix() {
                 fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}
                 textAlign={'center'}
               >
-                Aulas Bônus
+                Aula Bônus
                 <Text
                   fontWeight={400}
                   fontSize={{ base: 'lg', md: '2xs', lg: '2xl' }}
@@ -44,7 +42,7 @@ export function SectionSix() {
                 >
                   <Box
                     position={'relative'}
-                    height={'300px'}
+                    height={'auto'}
                     width={'full'}
                     overflow={'hidden'}
                     bgColor={'whiteAlpha.200'}
@@ -55,22 +53,11 @@ export function SectionSix() {
                     borderColor={'whiteAlpha.200'}
                     shadow={'lg'}
                   >
-                    <IconButton
-                      aria-label={'Play Button'}
-                      style={{ pointerEvents: 'none' }}
-                      icon={<PlayCircle size={64} weight={'fill'} />}
-                      size={'lg'}
-                      color={'white'}
-                      position={'absolute'}
-                      left={'50%'}
-                      top={'50%'}
-                      transform={'translateX(-50%) translateY(-50%)'}
-                    />
                     <Image
                       alt={'Hero Image'}
                       width={600}
                       height={600}
-                      src={'/img/bgAlbuquerque2.png'}
+                      src={'/img/capa.webp'}
                     />
                   </Box>
                 </Flex>

@@ -16,7 +16,6 @@ import {
 
 import { ReactElement } from 'react';
 import {
-  NumberCircleTwo,
   NumberEight,
   NumberFive,
   NumberFour,

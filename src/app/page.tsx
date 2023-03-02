@@ -1,5 +1,6 @@
 'use client';
 
+import { About } from './components/about';
 import { AccordionFaq } from './components/accordionfaq';
 import { Footer } from './components/footer';
 import { SectionFive } from './components/sectionfive';
@@ -18,6 +19,7 @@ export default function Home() {
       <SectionSix />
       <SectionFour />
       <SectionFive />
+      <About />
       <AccordionFaq />
       <Footer />
     </>

@@ -1,6 +1,6 @@
 'use client';
 
-import { Box, Flex, Heading, SimpleGrid, Stack, Text, VStack } from '@chakra-ui/react';
+import { Box, Heading, SimpleGrid, Text, VStack } from '@chakra-ui/react';
 import { Detective, Brain, SpeakerHigh, Scales, Desktop } from 'phosphor-react';
 
 export function SectionThree() {

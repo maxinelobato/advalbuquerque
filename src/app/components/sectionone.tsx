@@ -66,7 +66,7 @@ export function SectionOne() {
                   width={'full'}
                   overflow={'hidden'}
                   zIndex={1}
-                  style={{ filter: 'drop-shadow(0 0 0.75rem #fff)' }}
+                  boxShadow={'lg'}
                 >
                   <VideoAdv />
                 </Box>
