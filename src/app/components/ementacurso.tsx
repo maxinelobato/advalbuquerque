@@ -57,8 +57,9 @@ export function EmentaCurso() {
                     <BoxStyle>
                       <Image
                         alt={'Hero Image'}
-                        width={640}
-                        height={360}
+                        width={500}
+                        height={500}
+                        quality={75}
                         src={'/img/aula1.webp'}
                         priority
                       />
@@ -74,8 +75,9 @@ export function EmentaCurso() {
                     <BoxStyle>
                       <Image
                         alt={'Hero Image'}
-                        width={640}
-                        height={360}
+                        width={500}
+                        height={500}
+                        quality={75}
                         src={'/img/aula2.webp'}
                         priority
                       />
@@ -91,8 +93,9 @@ export function EmentaCurso() {
                     <BoxStyle>
                       <Image
                         alt={'Hero Image'}
-                        width={640}
-                        height={360}
+                        width={500}
+                        height={500}
+                        quality={75}
                         src={'/img/aula3.webp'}
                         priority
                       />
@@ -108,8 +111,9 @@ export function EmentaCurso() {
                     <BoxStyle>
                       <Image
                         alt={'Hero Image'}
-                        width={640}
-                        height={360}
+                        width={500}
+                        height={500}
+                        quality={75}
                         src={'/img/aula4.webp'}
                         priority
                       />
@@ -125,8 +129,9 @@ export function EmentaCurso() {
                     <BoxStyle>
                       <Image
                         alt={'Hero Image'}
-                        width={640}
-                        height={360}
+                        width={500}
+                        height={500}
+                        quality={75}
                         src={'/img/aula5.webp'}
                         priority
                       />
