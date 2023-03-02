@@ -1,17 +1,39 @@
 'use client';
 
-import { Box, Container, Heading, Stack, Text, VStack } from '@chakra-ui/react';
+import {
+  Box,
+  BoxProps,
+  Container,
+  Heading,
+  Stack,
+  Text,
+  VStack,
+} from '@chakra-ui/react';
 import { BotaoHotmart } from './botaohotmart';
+
+function BoxBgImage(props: BoxProps) {
+  return (
+    <Box
+      bgImage={'/img/bgImage2.webp'}
+      zIndex={0}
+      maxW={'100%'}
+      maxH={'100%'}
+      bgSize={'cover'}
+      bgPosition={'center center'}
+      sx={{
+        '.bgImage': {
+          loading: 'lazy',
+        },
+      }}
+      {...props}
+    />
+  );
+}
 
 export function PrecoInvestimento() {
   return (
     <>
-      <Box
-        bgImage={'/img/bgImage2.webp'}
-        bgSize={'cover'}
-        bgPos={'center'}
-        bgRepeat={'no-repeat'}
-      >
+      <BoxBgImage>
         <Box bgGradient={'linear(to-b, red.800, transparent 70%)'}>
           <Stack direction={{ base: 'column', md: 'row' }} p={6}>
             <Container maxW={'lg'}>
@@ -74,7 +96,7 @@ export function PrecoInvestimento() {
             </Container>
           </Stack>
         </Box>
-      </Box>
+      </BoxBgImage>
     </>
   );
 }

@@ -1,22 +1,35 @@
 'use client';
 
-import { Box, Flex, Heading, Stack, Text, Container } from '@chakra-ui/react';
+import { Box, Flex, Heading, Stack, Text, Container, BoxProps } from '@chakra-ui/react';
 import { BotaoHotmart } from './botaohotmart';
 import { BotaoPlayVideo } from './botaoplayvideo';
 import { Navbar } from './navbar';
 import { NavbarPromocao } from './navbarpromocao';
 import { VideoAdv } from './videoadv';
 
+function BoxBgImageInicial(props: BoxProps) {
+  return (
+    <Box
+      bgImage={'/img/bgImage.webp'}
+      zIndex={0}
+      maxW={'100%'}
+      maxH={'100%'}
+      bgSize={'cover'}
+      bgPosition={'center center'}
+      sx={{
+        '.bgImage': {
+          loading: 'lazy',
+        },
+      }}
+      {...props}
+    />
+  );
+}
+
 export function PaginaInicial() {
   return (
     <>
-      <Box
-        bgImage={'/img/bgImage.webp'}
-        bgSize={'cover'}
-        bgPos={'center'}
-        bgAttachment={'fixed'}
-        bgRepeat={'no-repeat'}
-      >
+      <BoxBgImageInicial>
         <NavbarPromocao />
         <Box bgGradient={'linear(to-r, gray.900, red.800, transparent)'}>
           <Navbar />
@@ -75,7 +88,7 @@ export function PaginaInicial() {
             </Stack>
           </Container>
         </Box>
-      </Box>
+      </BoxBgImageInicial>
     </>
   );
 }
