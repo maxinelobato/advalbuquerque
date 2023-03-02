@@ -78,7 +78,7 @@ export function Footer() {
                       spacing={{ base: 4, sm: 6 }}
                       direction={{ base: 'column', md: 'row' }}
                       justify={'center'}
-                      pt={10}
+                      pt={5}
                     >
                       <Button
                         variant={'unstyled'}
@@ -238,7 +238,7 @@ export function Footer() {
             </VStack>
           </Box>
           <VStack>
-            <HStack justify='center' mt={2} pb={4}>
+            <HStack justify='center' pb={4}>
               <Text
                 as={Link}
                 textAlign='center'

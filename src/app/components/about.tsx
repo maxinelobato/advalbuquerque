@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export function About() {
   return (
-    <Box bgGradient={'linear(to-tl, gray.900, red.800)'}>
+    <Box bgGradient={'linear(to-tl, gray.900, red.800)'} borderBottom={'1px'}>
       <Container maxW={'7xl'}>
         <Stack direction={{ base: 'column', md: 'row' }}>
           <Flex flex={1} justifyContent='center' align='center'>

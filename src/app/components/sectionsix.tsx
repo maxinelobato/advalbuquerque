@@ -15,9 +15,9 @@ export function SectionSix() {
   return (
     <>
       <Box bgGradient={'linear(to-bl, gray.900, red.800)'}>
-        <Stack direction={{ base: 'column', md: 'row' }} p={6}>
+        <Stack direction={{ base: 'column', md: 'row' }} p={4}>
           <Container maxW={'5xl'}>
-            <Stack spacing={6} w={'full'} p={6}>
+            <Stack spacing={6} w={'full'} p={4}>
               <Heading
                 fontWeight={'medium'}
                 fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}
@@ -34,7 +34,7 @@ export function SectionSix() {
                 </Text>
               </Heading>
             </Stack>
-            <Stack direction='column' alignItems='center' p={6}>
+            <Stack direction='column' alignItems='center' p={2}>
               <Box>
                 <Flex
                   justifyContent={{ base: 'center', md: 'center' }}
@@ -63,7 +63,7 @@ export function SectionSix() {
                 </Flex>
               </Box>
             </Stack>
-            <Stack spacing={6} w={'full'} p={6}>
+            <Stack spacing={6} w={'full'} p={4}>
               <Heading
                 fontWeight={'medium'}
                 fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}
@@ -80,7 +80,7 @@ export function SectionSix() {
                 </Text>
               </Heading>
             </Stack>
-            <Stack direction='column' alignItems='center' p={6}>
+            <Stack direction='column' alignItems='center' p={2}>
               <Box>
                 <Flex
                   justifyContent={{ base: 'center', md: 'center' }}
