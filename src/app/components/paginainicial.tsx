@@ -17,9 +17,7 @@ function BoxBgImageInicial(props: BoxProps) {
       bgSize={'cover'}
       bgPosition={'center center'}
       sx={{
-        '.bgImage': {
-          loading: 'lazy',
-        },
+        loading: 'lazy',
       }}
       {...props}
     />
