@@ -32,7 +32,7 @@ function BoxStyle(props: BoxProps) {
   );
 }
 
-export function SectionSeven() {
+export function EmentaCurso() {
   return (
     <>
       <Box bgGradient={'linear(to-br, gray.900, red.800)'}>
@@ -60,6 +60,7 @@ export function SectionSeven() {
                         width={400}
                         height={400}
                         src={'/img/aula1.webp'}
+                        loading={'lazy'}
                       />
                       <Text
                         p={2}
@@ -76,6 +77,7 @@ export function SectionSeven() {
                         width={400}
                         height={400}
                         src={'/img/aula2.webp'}
+                        loading={'lazy'}
                       />
                       <Text
                         p={2}
@@ -92,6 +94,7 @@ export function SectionSeven() {
                         width={400}
                         height={400}
                         src={'/img/aula3.webp'}
+                        loading={'lazy'}
                       />
                       <Text
                         p={2}
@@ -108,6 +111,7 @@ export function SectionSeven() {
                         width={400}
                         height={400}
                         src={'/img/aula4.webp'}
+                        loading={'lazy'}
                       />
                       <Text
                         p={2}
@@ -124,6 +128,7 @@ export function SectionSeven() {
                         width={400}
                         height={400}
                         src={'/img/aula5.webp'}
+                        loading={'lazy'}
                       />
                       <Text
                         p={2}

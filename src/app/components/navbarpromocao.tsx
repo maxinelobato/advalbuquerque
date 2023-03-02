@@ -2,7 +2,7 @@
 
 import { Box, Button, Flex, HStack, Link } from '@chakra-ui/react';
 
-export function NavbarProm() {
+export function NavbarPromocao() {
   return (
     <>
       <Box

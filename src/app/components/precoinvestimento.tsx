@@ -1,9 +1,9 @@
 'use client';
 
 import { Box, Container, Heading, Stack, Text, VStack } from '@chakra-ui/react';
-import { ButtonCta } from './buttoncta';
+import { BotaoHotmart } from './botaohotmart';
 
-export function SectionFive() {
+export function PrecoInvestimento() {
   return (
     <>
       <Box
@@ -12,6 +12,7 @@ export function SectionFive() {
         bgPos={'center'}
         bgRepeat={'no-repeat'}
         bgAttachment={'fixed'}
+        placeholder={'lazy'}
       >
         <Box bgGradient={'linear(to-b, red.800, transparent 70%)'}>
           <Stack direction={{ base: 'column', md: 'row' }} p={6}>
@@ -69,7 +70,7 @@ export function SectionFive() {
                   </Stack>
                 </Stack>
                 <VStack spacing={4} pt={6}>
-                  <ButtonCta />
+                  <BotaoHotmart />
                 </VStack>
               </Box>
             </Container>

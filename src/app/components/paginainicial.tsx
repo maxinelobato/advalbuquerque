@@ -1,13 +1,13 @@
 'use client';
 
 import { Box, Flex, Heading, Stack, Text, Container } from '@chakra-ui/react';
-import { ButtonCta } from './buttoncta';
-import { ButtonPlay } from './buttonplay';
+import { BotaoHotmart } from './botaohotmart';
+import { BotaoPlayVideo } from './botaoplayvideo';
 import { Navbar } from './navbar';
-import { NavbarProm } from './navbarprom';
+import { NavbarPromocao } from './navbarpromocao';
 import { VideoAdv } from './videoadv';
 
-export function SectionOne() {
+export function PaginaInicial() {
   return (
     <>
       <Box
@@ -15,8 +15,9 @@ export function SectionOne() {
         bgSize={'cover'}
         bgPos={'center'}
         bgRepeat={'no-repeat'}
+        placeholder={'lazy'}
       >
-        <NavbarProm />
+        <NavbarPromocao />
         <Box bgGradient={'linear(to-r, gray.900, red.800, transparent)'}>
           <Navbar />
           <Container maxW={'7xl'}>
@@ -49,8 +50,8 @@ export function SectionOne() {
                   spacing={{ base: 4, sm: 6 }}
                   direction={{ base: 'column', md: 'row' }}
                 >
-                  <ButtonCta />
-                  <ButtonPlay />
+                  <BotaoHotmart />
+                  <BotaoPlayVideo />
                 </Stack>
               </Stack>
               <Flex

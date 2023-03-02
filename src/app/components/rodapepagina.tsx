@@ -21,7 +21,7 @@ import {
 } from '@chakra-ui/react';
 import React from 'react';
 
-export function Footer() {
+export function RodapePagina() {
   const OverlayTwo = () => (
     <ModalOverlay bg='none' backdropFilter='auto' backdropBlur='10px' />
   );

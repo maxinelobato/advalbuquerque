@@ -3,7 +3,7 @@
 import { Box, Heading, SimpleGrid, Text, VStack } from '@chakra-ui/react';
 import { Detective, Brain, SpeakerHigh, Scales, Desktop } from 'phosphor-react';
 
-export function SectionThree() {
+export function IconesInformativos() {
   return (
     <>
       <SimpleGrid columns={{ base: 2, md: 3 }} spacing={[2, 4]}>

@@ -11,7 +11,7 @@ import {
 } from '@chakra-ui/react';
 import Image from 'next/image';
 
-export function SectionSix() {
+export function AulasBonus() {
   return (
     <>
       <Box bgGradient={'linear(to-bl, gray.900, red.800)'}>
@@ -58,6 +58,7 @@ export function SectionSix() {
                       width={600}
                       height={600}
                       src={'/img/capa.webp'}
+                      loading={'lazy'}
                     />
                   </Box>
                 </Flex>
@@ -96,6 +97,7 @@ export function SectionSix() {
                         width={400}
                         height={500}
                         src={'/img/ebook.webp'}
+                        loading={'lazy'}
                       />
                     </Box>
                   </SimpleGrid>

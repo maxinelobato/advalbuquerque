@@ -1,7 +1,7 @@
 import { Container, Stack, Flex, Box, Heading, Text } from '@chakra-ui/react';
 import Image from 'next/image';
 
-export function About() {
+export function SobreEspecialista() {
   return (
     <Box bgGradient={'linear(to-tl, gray.900, red.800)'} borderBottom={'1px'}>
       <Container maxW={'7xl'}>
@@ -42,12 +42,12 @@ export function About() {
           </Flex>
           <Flex flex={1} align={'center'} justify={'center'}>
             <Image
-              alt='About Humberto'
+              alt='About Albuquerque'
               src={'/img/bgAlbuquerque2.webp'}
               width={700}
               height={700}
-              loading={'lazy'}
               quality={75}
+              loading={'lazy'}
             />
           </Flex>
         </Stack>

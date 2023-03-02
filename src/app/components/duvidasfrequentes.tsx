@@ -45,7 +45,7 @@ const Feature = ({ text, icon }: FeatureProps) => {
   );
 };
 
-export function AccordionFaq() {
+export function DuvidasFrequentes() {
   return (
     <Box bgGradient={'linear(to-bl, gray.900, red.800)'}>
       <Container maxW='5xl' py={6} as={Stack} spacing={12}>

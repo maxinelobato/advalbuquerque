@@ -1,9 +1,9 @@
 'use client';
 
 import { Box, Stack, Container, Heading, Flex, Highlight } from '@chakra-ui/react';
-import { SectionThree } from './sectionthree';
+import { IconesInformativos } from './iconesinformativos';
 
-export function SectionTwo() {
+export function SobreOCurso() {
   return (
     <>
       <Box bgColor={'gray.900'}>
@@ -74,7 +74,7 @@ export function SectionTwo() {
                   justifyContent={{ base: 'center', md: 'center' }}
                   direction={{ base: 'column', md: 'row' }}
                 >
-                  <SectionThree />
+                  <IconesInformativos />
                 </Flex>
               </Box>
             </Stack>

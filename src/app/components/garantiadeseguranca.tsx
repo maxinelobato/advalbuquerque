@@ -11,9 +11,9 @@ import {
   VStack,
 } from '@chakra-ui/react';
 import { ShieldCheck, Lock, Laptop } from 'phosphor-react';
-import { ButtonCta } from './buttoncta';
+import { BotaoHotmart } from './botaohotmart';
 
-export function SectionFour() {
+export function GarantiaDeSeguranca() {
   return (
     <>
       <Box bgGradient={'linear(to-r, gray.900, red.800, transparent 100%)'}>
@@ -140,7 +140,7 @@ export function SectionFour() {
               </Flex>
             </Box>
             <Stack direction={{ base: 'column', md: 'row' }} spacing={4} pt={6}>
-              <ButtonCta />
+              <BotaoHotmart />
             </Stack>
           </Stack>
         </Container>

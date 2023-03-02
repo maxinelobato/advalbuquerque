@@ -1,27 +1,27 @@
 'use client';
 
-import { About } from './components/about';
-import { AccordionFaq } from './components/accordionfaq';
-import { Footer } from './components/footer';
-import { SectionFive } from './components/sectionfive';
-import { SectionFour } from './components/sectionfour';
-import { SectionOne } from './components/sectionone';
-import { SectionSeven } from './components/sectionseven';
-import { SectionSix } from './components/sectionsix';
-import { SectionTwo } from './components/sectiontwo';
+import { AulasBonus } from './components/aulasbonus';
+import { DuvidasFrequentes } from './components/duvidasfrequentes';
+import { EmentaCurso } from './components/ementacurso';
+import { GarantiaDeSeguranca } from './components/garantiadeseguranca';
+import { PaginaInicial } from './components/paginainicial';
+import { PrecoInvestimento } from './components/precoinvestimento';
+import { RodapePagina } from './components/rodapepagina';
+import { SobreEspecialista } from './components/sobreespecialista';
+import { SobreOCurso } from './components/sobreocurso';
 
 export default function Home() {
   return (
     <>
-      <SectionOne />
-      <SectionTwo />
-      <SectionSeven />
-      <SectionSix />
-      <SectionFour />
-      <SectionFive />
-      <About />
-      <AccordionFaq />
-      <Footer />
+      <PaginaInicial />
+      <SobreOCurso />
+      <EmentaCurso />
+      <AulasBonus />
+      <GarantiaDeSeguranca />
+      <PrecoInvestimento />
+      <SobreEspecialista />
+      <DuvidasFrequentes />
+      <RodapePagina />
     </>
   );
 }

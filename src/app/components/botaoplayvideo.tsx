@@ -3,7 +3,7 @@
 import { Button, Link } from '@chakra-ui/react';
 import { Play } from 'phosphor-react';
 
-export function ButtonPlay() {
+export function BotaoPlayVideo() {
   return (
     <>
       <Button
