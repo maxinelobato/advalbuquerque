@@ -2,7 +2,6 @@
 
 import { CacheProvider } from '@chakra-ui/next-js';
 import { ChakraProvider, extendTheme } from '@chakra-ui/react';
-import type { NextWebVitalsMetric } from 'next/app';
 
 const config = {
   initialColorMode: 'dark',
@@ -27,8 +26,4 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </body>
     </html>
   );
-}
-
-export function reportWebVitals(metric: NextWebVitalsMetric) {
-  console.log(metric);
 }
