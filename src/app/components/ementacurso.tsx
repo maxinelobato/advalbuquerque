@@ -10,8 +10,8 @@ import {
   BoxProps,
   Text,
   Center,
+  Image,
 } from '@chakra-ui/react';
-import Image from 'next/image';
 
 function BoxStyle(props: BoxProps) {
   return (
@@ -57,8 +57,8 @@ export function EmentaCurso() {
                     <BoxStyle>
                       <Image
                         alt={'Hero Image'}
-                        width={500}
-                        height={500}
+                        width={'30rem'}
+                        height={'11rem'}
                         src={'/img/aula1.webp'}
                         loading={'lazy'}
                       />
@@ -74,8 +74,8 @@ export function EmentaCurso() {
                     <BoxStyle>
                       <Image
                         alt={'Hero Image'}
-                        width={500}
-                        height={500}
+                        width={'30rem'}
+                        height={'11rem'}
                         src={'/img/aula2.webp'}
                         loading={'lazy'}
                       />
@@ -91,8 +91,8 @@ export function EmentaCurso() {
                     <BoxStyle>
                       <Image
                         alt={'Hero Image'}
-                        width={500}
-                        height={500}
+                        width={'30rem'}
+                        height={'11rem'}
                         src={'/img/aula3.webp'}
                         loading={'lazy'}
                       />
@@ -108,8 +108,8 @@ export function EmentaCurso() {
                     <BoxStyle>
                       <Image
                         alt={'Hero Image'}
-                        width={500}
-                        height={500}
+                        width={'30rem'}
+                        height={'11rem'}
                         src={'/img/aula4.webp'}
                         loading={'lazy'}
                       />
@@ -125,8 +125,8 @@ export function EmentaCurso() {
                     <BoxStyle>
                       <Image
                         alt={'Hero Image'}
-                        width={500}
-                        height={500}
+                        width={'30rem'}
+                        height={'11rem'}
                         src={'/img/aula5.webp'}
                         loading={'lazy'}
                       />
