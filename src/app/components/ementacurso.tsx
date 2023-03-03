@@ -17,8 +17,8 @@ function BoxStyle(props: BoxProps) {
   return (
     <Box
       position={'relative'}
-      height={'auto'}
-      width={'full'}
+      width={300}
+      height={280}
       overflow={'hidden'}
       bgColor={'blackAlpha.600'}
       backdropBlur={'1rem'}
