@@ -7,11 +7,11 @@ export function SobreOCurso() {
   return (
     <>
       <Box bgColor={'gray.900'}>
-        <Stack direction={{ base: 'column', md: 'row' }} p={6}>
+        <Stack direction={{ base: 'column', md: 'row' }} p={4}>
           <Container maxW={'5xl'}>
-            <Stack spacing={6} w={'full'} p={6}>
+            <Stack spacing={6} w={'full'} p={4}>
               <Heading
-                fontSize={{ base: 'lg', md: 'lg', lg: '2xl' }}
+                fontSize={{ base: 'sm', md: 'md', lg: 'lg' }}
                 fontWeight={'medium'}
                 textAlign={'center'}
                 lineHeight={'tall'}
@@ -51,7 +51,7 @@ export function SobreOCurso() {
                     'experiência comprovada',
                     'atuação em todo o',
                     'território nacional',
-                    '5 módulos',
+                    '6 módulos',
                   ]}
                   styles={{
                     px: '1',
@@ -64,11 +64,11 @@ export function SobreOCurso() {
                   As aulas todas serão produzidas pelo Professor Raimundo Albuquerque
                   com experiência comprovada e atuação em todo o território nacional, o
                   que mostra a sua versatilidade para advogar em qualquer lugar e em
-                  qualquer condição. teremos no mínimo 5 módulos.
+                  qualquer condição. teremos no mínimo 6 módulos.
                 </Highlight>
               </Heading>
             </Stack>
-            <Stack direction='column' alignItems='center' p={6}>
+            <Stack direction='column' alignItems='center' p={4}>
               <Box>
                 <Flex
                   justifyContent={{ base: 'center', md: 'center' }}
