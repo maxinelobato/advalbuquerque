@@ -59,6 +59,8 @@ export function EmentaCards() {
             src={modulos.imageURL0}
             alt={`Picture of ${modulos.modulo0}`}
             roundedTop='lg'
+            width={'20rem'}
+            height={'11rem'}
           />
 
           <Box p='4'>
@@ -84,6 +86,8 @@ export function EmentaCards() {
             src={modulos.imageURL1}
             alt={`Picture of ${modulos.modulo1}`}
             roundedTop='lg'
+            width={'20rem'}
+            height={'11rem'}
           />
           <Box p='4'>
             <Box display='flex' alignItems='baseline'>
@@ -106,6 +110,8 @@ export function EmentaCards() {
             src={modulos.imageURL2}
             alt={`Picture of ${modulos.modulo2}`}
             roundedTop='lg'
+            width={'20rem'}
+            height={'11rem'}
           />
           <Box p='4'>
             <Box display='flex' alignItems='baseline'>
@@ -130,6 +136,8 @@ export function EmentaCards() {
             src={modulos.imageURL3}
             alt={`Picture of ${modulos.modulo3}`}
             roundedTop='lg'
+            width={'20rem'}
+            height={'11rem'}
           />
           <Box p='4'>
             <Box display='flex' alignItems='baseline'>
@@ -154,6 +162,8 @@ export function EmentaCards() {
             src={modulos.imageURL31}
             alt={`Picture of ${modulos.modulo31}`}
             roundedTop='lg'
+            width={'20rem'}
+            height={'11rem'}
           />
           <Box p='4'>
             <Box display='flex' alignItems='baseline'>
@@ -176,6 +186,8 @@ export function EmentaCards() {
             src={modulos.imageURL4}
             alt={`Picture of ${modulos.modulo4}`}
             roundedTop='lg'
+            width={'20rem'}
+            height={'11rem'}
           />
           <Box p='4'>
             <Box display='flex' alignItems='baseline'>
@@ -198,6 +210,8 @@ export function EmentaCards() {
             src={modulos.imageURL5}
             alt={`Picture of ${modulos.modulo5}`}
             roundedTop='lg'
+            width={'20rem'}
+            height={'11rem'}
           />
           <Box p='4'>
             <Box display='flex' alignItems='baseline'>

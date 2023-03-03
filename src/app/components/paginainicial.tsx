@@ -10,9 +10,20 @@ import { VideoAdv } from './videoadv';
 function BoxBgImageInicial(props: BoxProps) {
   return (
     <Box
-      bgImage={'/img/bgImage.webp'}
-      bgSize={'cover'}
-      bgPosition={'center center'}
+      pos={'relative'}
+      h={'100%'}
+      _before={{
+        content: '""',
+        bgImage: '/img/bgImage.webp',
+        bgSize: 'cover',
+        pos: 'absolute',
+        zIndex: '-1',
+        top: 0,
+        right: 0,
+        left: 0,
+        bottom: 0,
+        opacity: 0.8,
+      }}
       {...props}
     />
   );

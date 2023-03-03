@@ -14,9 +14,20 @@ import { BotaoHotmart } from './botaohotmart';
 function BoxBgImage(props: BoxProps) {
   return (
     <Box
-      bgImage={'/img/bgImage2.webp'}
-      bgSize={'cover'}
-      bgPosition={'center center'}
+      pos={'relative'}
+      h={'100%'}
+      _before={{
+        content: '""',
+        bgImage: '/img/bgImage2.webp',
+        bgSize: 'cover',
+        pos: 'absolute',
+        zIndex: '-1',
+        top: 0,
+        right: 0,
+        left: 0,
+        bottom: 0,
+        opacity: 0.8,
+      }}
       {...props}
     />
   );
