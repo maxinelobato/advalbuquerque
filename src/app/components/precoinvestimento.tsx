@@ -16,9 +16,9 @@ function BoxBgImage(props: BoxProps) {
     <Box
       bgImage={'/img/bgImage2.webp'}
       maxW={'100%'}
-      maxH={'auto'}
+      maxH={'100%'}
       bgSize={'cover'}
-      bgPosition={'center center'}
+      bgPosition={'center'}
       {...props}
     />
   );
