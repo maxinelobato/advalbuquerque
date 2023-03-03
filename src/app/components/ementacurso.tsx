@@ -10,8 +10,8 @@ import {
   BoxProps,
   Text,
   Center,
-  Image,
 } from '@chakra-ui/react';
+import Image from 'next/image';
 
 function BoxStyle(props: BoxProps) {
   return (
@@ -57,10 +57,9 @@ export function EmentaCurso() {
                     <BoxStyle>
                       <Image
                         alt={'Hero Image'}
-                        width={'30rem'}
-                        height={'11rem'}
+                        width={500}
+                        height={500}
                         src={'/img/aula1.webp'}
-                        loading={'lazy'}
                       />
                       <Text
                         p={2}
@@ -74,10 +73,9 @@ export function EmentaCurso() {
                     <BoxStyle>
                       <Image
                         alt={'Hero Image'}
-                        width={'30rem'}
-                        height={'11rem'}
+                        width={500}
+                        height={500}
                         src={'/img/aula2.webp'}
-                        loading={'lazy'}
                       />
                       <Text
                         p={2}
@@ -91,10 +89,9 @@ export function EmentaCurso() {
                     <BoxStyle>
                       <Image
                         alt={'Hero Image'}
-                        width={'30rem'}
-                        height={'11rem'}
+                        width={500}
+                        height={500}
                         src={'/img/aula3.webp'}
-                        loading={'lazy'}
                       />
                       <Text
                         p={2}
@@ -108,10 +105,9 @@ export function EmentaCurso() {
                     <BoxStyle>
                       <Image
                         alt={'Hero Image'}
-                        width={'30rem'}
-                        height={'11rem'}
+                        width={500}
+                        height={500}
                         src={'/img/aula4.webp'}
-                        loading={'lazy'}
                       />
                       <Text
                         p={2}
@@ -125,10 +121,9 @@ export function EmentaCurso() {
                     <BoxStyle>
                       <Image
                         alt={'Hero Image'}
-                        width={'30rem'}
-                        height={'11rem'}
+                        width={500}
+                        height={500}
                         src={'/img/aula5.webp'}
-                        loading={'lazy'}
                       />
                       <Text
                         p={2}
