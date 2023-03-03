@@ -59,9 +59,8 @@ export function EmentaCurso() {
                         alt={'Hero Image'}
                         width={500}
                         height={500}
-                        quality={75}
                         src={'/img/aula1.webp'}
-                        priority
+                        loading={'lazy'}
                       />
                       <Text
                         p={2}
@@ -77,9 +76,8 @@ export function EmentaCurso() {
                         alt={'Hero Image'}
                         width={500}
                         height={500}
-                        quality={75}
                         src={'/img/aula2.webp'}
-                        priority
+                        loading={'lazy'}
                       />
                       <Text
                         p={2}
@@ -95,9 +93,8 @@ export function EmentaCurso() {
                         alt={'Hero Image'}
                         width={500}
                         height={500}
-                        quality={75}
                         src={'/img/aula3.webp'}
-                        priority
+                        loading={'lazy'}
                       />
                       <Text
                         p={2}
@@ -113,9 +110,8 @@ export function EmentaCurso() {
                         alt={'Hero Image'}
                         width={500}
                         height={500}
-                        quality={75}
                         src={'/img/aula4.webp'}
-                        priority
+                        loading={'lazy'}
                       />
                       <Text
                         p={2}
@@ -131,9 +127,8 @@ export function EmentaCurso() {
                         alt={'Hero Image'}
                         width={500}
                         height={500}
-                        quality={75}
                         src={'/img/aula5.webp'}
-                        priority
+                        loading={'lazy'}
                       />
                       <Text
                         p={2}
