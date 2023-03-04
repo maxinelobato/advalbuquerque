@@ -1,4 +1,7 @@
-import { Flex, Box, Image, Badge, BoxProps } from '@chakra-ui/react';
+'use client';
+
+import { Flex, Box, Badge, BoxProps } from '@chakra-ui/react';
+import Image from 'next/image';
 
 const modulos = {
   isNew: true,
@@ -21,6 +24,7 @@ const modulos = {
 function BoxStyle(props: BoxProps) {
   return (
     <Box
+      overflow={'hidden'}
       width={300}
       height={280}
       maxW={'lg'}
@@ -58,9 +62,9 @@ export function EmentaCards() {
           <Image
             src={modulos.imageURL0}
             alt={`Picture of ${modulos.modulo0}`}
-            roundedTop='lg'
-            width={'20rem'}
-            height={'11rem'}
+            width={300}
+            height={300}
+            priority
           />
 
           <Box p='4'>
@@ -82,13 +86,13 @@ export function EmentaCards() {
 
       <Flex w='full' alignItems='center' justifyContent='center'>
         <BoxStyle>
-          <Image
+          {/* <Image
             src={modulos.imageURL1}
             alt={`Picture of ${modulos.modulo1}`}
             roundedTop='lg'
             width={'20rem'}
             height={'11rem'}
-          />
+          /> */}
           <Box p='4'>
             <Box display='flex' alignItems='baseline'>
               {modulos.isNew && (
@@ -109,9 +113,9 @@ export function EmentaCards() {
           <Image
             src={modulos.imageURL2}
             alt={`Picture of ${modulos.modulo2}`}
-            roundedTop='lg'
-            width={'20rem'}
-            height={'11rem'}
+            width={300}
+            height={300}
+            priority
           />
           <Box p='4'>
             <Box display='flex' alignItems='baseline'>
@@ -132,13 +136,13 @@ export function EmentaCards() {
 
       <Flex w='full' alignItems='center' justifyContent='center'>
         <BoxStyle>
-          <Image
+          {/* <Image
             src={modulos.imageURL3}
             alt={`Picture of ${modulos.modulo3}`}
             roundedTop='lg'
             width={'20rem'}
             height={'11rem'}
-          />
+          /> */}
           <Box p='4'>
             <Box display='flex' alignItems='baseline'>
               {modulos.isNew && (
@@ -148,9 +152,7 @@ export function EmentaCards() {
               )}
             </Box>
             <Flex mt='1' justifyContent='center' alignContent='center'>
-              <BoxStyleLegend>
-                Noções Básicas de Técnica de Persuasão Parte I
-              </BoxStyleLegend>
+              <BoxStyleLegend>Noções Básicas de Técnica de Persuasão</BoxStyleLegend>
             </Flex>
           </Box>
         </BoxStyle>
@@ -161,9 +163,9 @@ export function EmentaCards() {
           <Image
             src={modulos.imageURL31}
             alt={`Picture of ${modulos.modulo31}`}
-            roundedTop='lg'
-            width={'20rem'}
-            height={'11rem'}
+            width={300}
+            height={300}
+            priority
           />
           <Box p='4'>
             <Box display='flex' alignItems='baseline'>
@@ -174,7 +176,7 @@ export function EmentaCards() {
               )}
             </Box>
             <Flex mt='1' justifyContent='center' alignContent='center'>
-              <BoxStyleLegend>Noções Básicas de Técnica de Persuasão II</BoxStyleLegend>
+              <BoxStyleLegend>Noções básicas de interrogatório I</BoxStyleLegend>
             </Flex>
           </Box>
         </BoxStyle>
@@ -185,9 +187,9 @@ export function EmentaCards() {
           <Image
             src={modulos.imageURL4}
             alt={`Picture of ${modulos.modulo4}`}
-            roundedTop='lg'
-            width={'20rem'}
-            height={'11rem'}
+            width={300}
+            height={300}
+            priority
           />
           <Box p='4'>
             <Box display='flex' alignItems='baseline'>
@@ -198,7 +200,7 @@ export function EmentaCards() {
               )}
             </Box>
             <Flex mt='1' justifyContent='center' alignContent='center'>
-              <BoxStyleLegend>Noções básicas de interrogatório</BoxStyleLegend>
+              <BoxStyleLegend>Noções básicas de interrogatório II</BoxStyleLegend>
             </Flex>
           </Box>
         </BoxStyle>
@@ -209,9 +211,9 @@ export function EmentaCards() {
           <Image
             src={modulos.imageURL5}
             alt={`Picture of ${modulos.modulo5}`}
-            roundedTop='lg'
-            width={'20rem'}
-            height={'11rem'}
+            width={300}
+            height={300}
+            priority
           />
           <Box p='4'>
             <Box display='flex' alignItems='baseline'>

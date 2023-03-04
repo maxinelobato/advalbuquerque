@@ -10,6 +10,7 @@ import {
   SimpleGrid,
 } from '@chakra-ui/react';
 import Image from 'next/image';
+import { AulasBonusCards } from './aulasbonuscards';
 
 export function AulasBonus() {
   return (
@@ -23,44 +24,26 @@ export function AulasBonus() {
                 fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}
                 textAlign={'center'}
               >
-                Aula Bônus
+                Aulas Bônus
                 <Text
                   fontWeight={400}
                   fontSize={{ base: 'lg', md: '2xs', lg: '2xl' }}
                   textAlign={'center'}
                   color={'whiteAlpha.800'}
                 >
-                  Google Ads para Advogados
+                  Social Midia no Instagram e Gestão de Tráfego no Google Ads
                 </Text>
               </Heading>
             </Stack>
-            <Stack direction='column' alignItems='center' p={2}>
+            <Stack direction='column' alignItems='center' p={4}>
               <Box>
                 <Flex
                   justifyContent={{ base: 'center', md: 'center' }}
-                  direction={{ base: 'column-reverse', md: 'column' }}
+                  direction={{ base: 'column', md: 'row' }}
                 >
-                  <Box
-                    position={'relative'}
-                    height={'auto'}
-                    width={'full'}
-                    overflow={'hidden'}
-                    bgColor={'whiteAlpha.200'}
-                    backdropBlur={'1rem'}
-                    backdropFilter='blur(5px)'
-                    rounded={'lg'}
-                    border={'1px'}
-                    borderColor={'whiteAlpha.200'}
-                    shadow={'lg'}
-                  >
-                    <Image
-                      alt={'Hero Image'}
-                      width={600}
-                      height={600}
-                      src={'/img/capa.webp'}
-                      loading={'lazy'}
-                    />
-                  </Box>
+                  <SimpleGrid columns={{ base: 1, md: 2 }} spacing={[4, 6]}>
+                    <AulasBonusCards />
+                  </SimpleGrid>
                 </Flex>
               </Box>
             </Stack>
