@@ -75,12 +75,13 @@ export function PaginaInicial() {
                 justify={'center'}
                 align={'center'}
                 position={'relative'}
-                w={'full'}
+                w={'auto'}
               >
                 <Box
                   position={'relative'}
                   rounded={'lg'}
-                  width={'full'}
+                  width={'auto'}
+                  height={'auto'}
                   overflow={'hidden'}
                   zIndex={1}
                   boxShadow={'lg'}

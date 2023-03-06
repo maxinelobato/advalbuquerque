@@ -77,10 +77,11 @@ export function AulasBonus() {
                     >
                       <Image
                         alt={'Hero Image'}
-                        width={400}
+                        width={500}
                         height={500}
                         src={'/img/ebook.webp'}
-                        loading={'lazy'}
+                        quality={75}
+                        priority
                       />
                     </Box>
                   </SimpleGrid>

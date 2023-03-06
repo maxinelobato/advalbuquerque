@@ -228,37 +228,6 @@ export function DuvidasFrequentes() {
                       <Box flex='1' textAlign='center'>
                         <Stack spacing={2}>
                           <Feature
-                            icon={<Icon as={NumberSix} w={8} h={8} weight='fill' />}
-                            text={
-                              'Por que o Curso de Prática em Audiências Criminais é diferente de qualquer outro curso?'
-                            }
-                          />
-                        </Stack>
-                      </Box>
-                      <AccordionIcon />
-                    </AccordionButton>
-                  </h2>
-                  <AccordionPanel>
-                    <Box>
-                      <Text textAlign='justify'>
-                        Porque é um Curso focado na visão de negócios da advocacia –
-                        você finalmente vai aprender a se preparar para uma audiência
-                        criminal seja presencial ou online, táticas e práticas dos seus
-                        serviços como técnicas de interrogatório, raciocínio lógico,
-                        técnicas de persuasão. Fora isso, o Curso Prática em Audiências
-                        Criminais já conta com vários membros cujos resultados se
-                        comprovam a cada dia.
-                      </Text>
-                    </Box>
-                  </AccordionPanel>
-                </AccordionItem>
-
-                <AccordionItem>
-                  <h2>
-                    <AccordionButton>
-                      <Box flex='1' textAlign='center'>
-                        <Stack spacing={2}>
-                          <Feature
                             icon={<Icon as={NumberSeven} w={8} h={8} weight='fill' />}
                             text={'Precisa ter alguma experiência pra fazer o Curso?'}
                           />

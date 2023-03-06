@@ -5,20 +5,20 @@ import Image from 'next/image';
 
 const modulos = {
   isNew: true,
-  imageURL0: '/img/aula1.webp',
+  imageURL0: '/img/boasvindas.webp',
   imageURL1: '/img/aula1.webp',
   imageURL2: '/img/aula2.webp',
   imageURL3: '/img/aula3.webp',
-  imageURL31: '/img/aula3.webp',
-  imageURL4: '/img/aula4.webp',
+  imageURL41: '/img/aula4part1.webp',
+  imageURL42: '/img/aula4part2.webp',
   imageURL5: '/img/aula5.webp',
   modulo0: 'Módulo Boas Vindas',
   modulo1: 'Módulo 1',
   modulo2: 'Módulo 2',
   modulo3: 'Módulo 3',
-  modulo31: 'Módulo 4',
-  modulo4: 'Módulo 5',
-  modulo5: 'Módulo 6',
+  modulo41: 'Módulo 4 Parte 1',
+  modulo42: 'Módulo 4 Parte 2',
+  modulo5: 'Módulo 5',
 };
 
 function BoxStyle(props: BoxProps) {
@@ -64,7 +64,7 @@ export function EmentaCards() {
             alt={`Picture of ${modulos.modulo0}`}
             width={300}
             height={300}
-            priority
+            loading={'lazy'}
           />
 
           <Box p='4'>
@@ -86,13 +86,13 @@ export function EmentaCards() {
 
       <Flex w='full' alignItems='center' justifyContent='center'>
         <BoxStyle>
-          {/* <Image
+          <Image
             src={modulos.imageURL1}
             alt={`Picture of ${modulos.modulo1}`}
-            roundedTop='lg'
-            width={'20rem'}
-            height={'11rem'}
-          /> */}
+            width={300}
+            height={300}
+            loading={'lazy'}
+          />
           <Box p='4'>
             <Box display='flex' alignItems='baseline'>
               {modulos.isNew && (
@@ -115,7 +115,7 @@ export function EmentaCards() {
             alt={`Picture of ${modulos.modulo2}`}
             width={300}
             height={300}
-            priority
+            loading={'lazy'}
           />
           <Box p='4'>
             <Box display='flex' alignItems='baseline'>
@@ -136,13 +136,13 @@ export function EmentaCards() {
 
       <Flex w='full' alignItems='center' justifyContent='center'>
         <BoxStyle>
-          {/* <Image
+          <Image
             src={modulos.imageURL3}
             alt={`Picture of ${modulos.modulo3}`}
-            roundedTop='lg'
-            width={'20rem'}
-            height={'11rem'}
-          /> */}
+            width={300}
+            height={300}
+            loading={'lazy'}
+          />
           <Box p='4'>
             <Box display='flex' alignItems='baseline'>
               {modulos.isNew && (
@@ -161,17 +161,17 @@ export function EmentaCards() {
       <Flex w='full' alignItems='center' justifyContent='center'>
         <BoxStyle>
           <Image
-            src={modulos.imageURL31}
-            alt={`Picture of ${modulos.modulo31}`}
+            src={modulos.imageURL41}
+            alt={`Picture of ${modulos.modulo41}`}
             width={300}
             height={300}
-            priority
+            loading={'lazy'}
           />
           <Box p='4'>
             <Box display='flex' alignItems='baseline'>
               {modulos.isNew && (
                 <Badge rounded='full' px='2' fontSize='0.8em' colorScheme='red'>
-                  {modulos.modulo31}
+                  {modulos.modulo41}
                 </Badge>
               )}
             </Box>
@@ -185,17 +185,17 @@ export function EmentaCards() {
       <Flex w='full' alignItems='center' justifyContent='center'>
         <BoxStyle>
           <Image
-            src={modulos.imageURL4}
-            alt={`Picture of ${modulos.modulo4}`}
+            src={modulos.imageURL42}
+            alt={`Picture of ${modulos.modulo42}`}
             width={300}
             height={300}
-            priority
+            loading={'lazy'}
           />
           <Box p='4'>
             <Box display='flex' alignItems='baseline'>
               {modulos.isNew && (
                 <Badge rounded='full' px='2' fontSize='0.8em' colorScheme='red'>
-                  {modulos.modulo4}
+                  {modulos.modulo42}
                 </Badge>
               )}
             </Box>
@@ -213,7 +213,7 @@ export function EmentaCards() {
             alt={`Picture of ${modulos.modulo5}`}
             width={300}
             height={300}
-            priority
+            loading={'lazy'}
           />
           <Box p='4'>
             <Box display='flex' alignItems='baseline'>
