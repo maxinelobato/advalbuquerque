@@ -92,7 +92,7 @@ export function AulasBonus() {
                         height={500}
                         src={'/img/ebook.webp'}
                         quality={75}
-                        priority
+                        loading={'lazy'}
                       />
                     </Box>
                   </SimpleGrid>

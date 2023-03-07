@@ -103,7 +103,7 @@ export function RodapePagina() {
                       isOpen={isOpen}
                       onClose={onClose}
                       scrollBehavior='inside'
-                      size={'xl'}
+                      size={{ base: 'sm', md: 'xl' }}
                     >
                       {overlay}
                       <ModalContent
