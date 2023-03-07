@@ -4,6 +4,9 @@ import { Button, Link } from '@chakra-ui/react';
 import { Play } from 'phosphor-react';
 
 export function BotaoPlayVideo() {
+  const buttonPlay = {
+    textbuttonplay: 'Ouça o especialista',
+  };
   return (
     <>
       <Button
@@ -20,7 +23,7 @@ export function BotaoPlayVideo() {
         rightIcon={<Play size={24} weight={'fill'} />}
         isExternal
       >
-        Ouça o especialista
+        {buttonPlay.textbuttonplay}
       </Button>
     </>
   );

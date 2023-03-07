@@ -26,6 +26,21 @@ import {
 
 export function ModalMaxine() {
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const modalHeading = {
+    ementatextbutton: 'Ementa do Mini Curso',
+    closetextbutton: 'Fechar',
+    heading0: 'Gestão de Tráfego no Google Ads para Advogados',
+    heading1: 'Funil de Vendas:',
+    text1: 'Topo de Funil',
+    text2: 'Meio de Funil',
+    text3: 'Fundo de Funil',
+    heading2: 'Criar conta no Google Ads',
+    heading3: 'Configurações de pagamento',
+    heading4: 'Pesquisando o público no Planejador de Palavras-Chave',
+    heading5: 'Criando lista de Palavras-Chave Negativas antes de subir campanha',
+    heading6: 'Subindo a primeira campanha',
+    heading7: 'Análise e métricas para otimizar suas campanhas',
+  };
   return (
     <>
       <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', md: 'row' }}>
@@ -40,7 +55,7 @@ export function ModalMaxine() {
           fontWeight={'light'}
           fontSize={'sm'}
         >
-          Ementa do Mini Curso
+          {modalHeading.ementatextbutton}
         </Button>
       </Stack>
       <Modal
@@ -52,82 +67,74 @@ export function ModalMaxine() {
         size={'sm'}
       >
         <ModalContent
-          bgColor={'blackAlpha.900'}
+          bgColor={'blackAlpha.700'}
           backdropBlur={'1rem'}
-          backdropFilter='blur(5px)'
+          backdropFilter='blur(20px)'
           border={'1px'}
           borderColor={'whiteAlpha.200'}
         >
-          <ModalHeader color={'red.400'}>
-            Gestão de Tráfego no Google Ads para Advogados
-          </ModalHeader>
+          <ModalHeader color={'red.400'}>{modalHeading.heading0}</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
             <HStack pt={2}>
               <Text color={'red.400'}>
                 <NumberOne size={20} weight='fill' />
               </Text>
-              <Text textAlign={'left'}>Funil de Vendas:</Text>
+              <Text textAlign={'left'}>{modalHeading.text1}</Text>
             </HStack>
             <HStack pt={2} ml={4}>
               <Text color={'red.400'}>
                 <Minus size={20} weight='bold' />
               </Text>
-              <Text textAlign={'left'}>Topo de Funil</Text>
+              <Text textAlign={'left'}>{modalHeading.text2}</Text>
             </HStack>
             <HStack ml={4}>
               <Text color={'red.400'}>
                 <Minus size={20} weight='bold' />
               </Text>
-              <Text textAlign={'left'}>Meio de Funil</Text>
+              <Text textAlign={'left'}>{modalHeading.text3}</Text>
             </HStack>
             <HStack ml={4}>
               <Text color={'red.400'}>
                 <Minus size={20} weight='bold' />
               </Text>
-              <Text textAlign={'left'}>Fundo de Funil</Text>
+              <Text textAlign={'left'}>{modalHeading.heading1}</Text>
             </HStack>
             <HStack pt={2}>
               <Text color={'red.400'}>
                 <NumberTwo size={20} weight='fill' />
               </Text>
-              <Text textAlign={'left'}>Criar conta no Google Ads</Text>
+              <Text textAlign={'left'}>{modalHeading.heading2}</Text>
             </HStack>
             <HStack pt={2}>
               <Text color={'red.400'}>
                 <NumberThree size={20} weight='fill' />
               </Text>
-              <Text textAlign={'left'}>Configurações de pagamento</Text>
+              <Text textAlign={'left'}>{modalHeading.heading3}</Text>
             </HStack>
             <HStack pt={2}>
               <Text color={'red.400'}>
                 <NumberFour size={20} weight='fill' />
               </Text>
-              <Text textAlign={'left'}>
-                Pesquisando o público no Planejador de Palavras-Chave
-              </Text>
+              <Text textAlign={'left'}>{modalHeading.heading4}</Text>
             </HStack>
             <HStack pt={2}>
               <Text color={'red.400'}>
                 <NumberFive size={20} weight='fill' />
               </Text>
-              <Text textAlign={'left'}>
-                Criando lista de Palavras-Chave Negativas antes de subir campanha
-              </Text>
+              <Text textAlign={'left'}>{modalHeading.heading5}</Text>
             </HStack>
             <HStack pt={2}>
               <Text color={'red.400'}>
                 <NumberSix size={20} weight='fill' />
               </Text>
-              <Text textAlign={'left'}>Subindo a primeira campanha</Text>
+              <Text textAlign={'left'}>{modalHeading.heading6}</Text>
             </HStack>
             <HStack pt={2}>
               <Text color={'red.400'}>
                 <NumberSeven size={20} weight='fill' />
               </Text>
-              <Text textAlign={'left'}>
-                Análise e métricas para otimizar suas campanhas
-              </Text>
+              <Text textAlign={'left'}>{modalHeading.heading7}</Text>
             </HStack>
           </ModalBody>
           <ModalFooter justifyContent={'center'}>
@@ -142,7 +149,7 @@ export function ModalMaxine() {
                 transition: '0.5s',
               }}
             >
-              Fechar
+              {modalHeading.closetextbutton}
             </Button>
           </ModalFooter>
         </ModalContent>

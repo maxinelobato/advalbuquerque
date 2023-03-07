@@ -13,6 +13,13 @@ import Image from 'next/image';
 import { AulasBonusCards } from './aulasbonuscards';
 
 export function AulasBonus() {
+  const headingAulaBonus = {
+    heading1: 'Aulas Bônus',
+    body1: 'Social Midia no Instagram e Gestão de Tráfego no Google Ads',
+    heading2: 'E-book Exclusivo',
+    body2: 'Você ganha um E-book sobre como é a acareação no processo penal',
+  };
+
   return (
     <>
       <Box bgGradient={'linear(to-bl, gray.900, red.800)'}>
@@ -20,20 +27,22 @@ export function AulasBonus() {
           <Container maxW={'5xl'}>
             <Stack spacing={6} w={'full'} p={4}>
               <Heading
+                as={'h1'}
                 fontWeight={'medium'}
                 fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}
                 textAlign={'center'}
               >
-                Aulas Bônus
-                <Text
-                  fontWeight={400}
-                  fontSize={{ base: 'lg', md: '2xs', lg: '2xl' }}
-                  textAlign={'center'}
-                  color={'whiteAlpha.800'}
-                >
-                  Social Midia no Instagram e Gestão de Tráfego no Google Ads
-                </Text>
+                {headingAulaBonus.heading1}
               </Heading>
+              <Text
+                as={'h2'}
+                fontWeight={400}
+                fontSize={{ base: 'lg', md: '2xs', lg: '2xl' }}
+                textAlign={'center'}
+                color={'whiteAlpha.800'}
+              >
+                {headingAulaBonus.body1}
+              </Text>
             </Stack>
             <Stack direction='column' alignItems='center' p={4}>
               <Box>
@@ -49,20 +58,22 @@ export function AulasBonus() {
             </Stack>
             <Stack spacing={6} w={'full'} p={4}>
               <Heading
+                as={'h1'}
                 fontWeight={'medium'}
                 fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}
                 textAlign={'center'}
               >
-                E-book Exclusivo
-                <Text
-                  fontWeight={400}
-                  fontSize={{ base: 'lg', md: '2xs', lg: '2xl' }}
-                  textAlign={'center'}
-                  color={'whiteAlpha.800'}
-                >
-                  Você ganha um E-book sobre como é a acareação no processo penal
-                </Text>
+                {headingAulaBonus.heading2}
               </Heading>
+              <Text
+                as={'h2'}
+                fontWeight={400}
+                fontSize={{ base: 'lg', md: '2xs', lg: '2xl' }}
+                textAlign={'center'}
+                color={'whiteAlpha.800'}
+              >
+                {headingAulaBonus.body2}
+              </Text>
             </Stack>
             <Stack direction='column' alignItems='center' p={2}>
               <Box>

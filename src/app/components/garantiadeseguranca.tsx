@@ -14,6 +14,16 @@ import { ShieldCheck, Lock, Laptop } from 'phosphor-react';
 import { BotaoHotmart } from './botaohotmart';
 
 export function GarantiaDeSeguranca() {
+  const garantiaText = {
+    heading1: 'Garantia de 7 Dias',
+    text1:
+      'Nesse prazo, se o curso não for o que esperava, é só pedir seu investimento de volta.',
+    heading2: 'Pagamento Seguro',
+    text2: ' A sua compra é 100% segura e todos os seus dados são protegidos.',
+    heading3: 'Acesso Imediato',
+    text3:
+      'Assim que seu pagamento for processado, você terá acesso imediato ao conteúdo do curso.',
+  };
   return (
     <>
       <Box bgGradient={'linear(to-r, gray.900, red.800, transparent 100%)'}>
@@ -48,17 +58,16 @@ export function GarantiaDeSeguranca() {
                     <VStack align={'center'}>
                       <Box>
                         <Heading
-                          fontSize={{ base: 'sm', md: 'lg' }}
-                          textAlign={{ base: 'center', md: 'center', lg: 'center' }}
+                          as={'h1'}
+                          fontSize={'2xl'}
+                          color={'red.300'}
+                          textAlign={'center'}
                         >
-                          <Text fontSize={'2xl'} color={'red.300'}>
-                            Garantia de 7 Dias
-                          </Text>
-                          <Text fontWeight={'normal'} as='span'>
-                            Nesse prazo, se o curso não for o que esperava, é só pedir
-                            seu investimento de volta.
-                          </Text>
+                          {garantiaText.heading1}
                         </Heading>
+                        <Text as={'h2'} textAlign={'center'}>
+                          {garantiaText.text1}
+                        </Text>
                       </Box>
                     </VStack>
                   </VStack>
@@ -85,17 +94,16 @@ export function GarantiaDeSeguranca() {
                     <VStack align={'center'}>
                       <Box>
                         <Heading
-                          fontSize={{ base: 'sm', md: 'lg' }}
-                          textAlign={{ base: 'center', md: 'center', lg: 'center' }}
+                          as={'h1'}
+                          fontSize={'2xl'}
+                          color={'red.300'}
+                          textAlign={'center'}
                         >
-                          <Text fontSize={'2xl'} color={'red.300'}>
-                            Pagamento Seguro
-                          </Text>
-                          <Text fontWeight={'normal'} as='span'>
-                            A sua compra é 100% segura e todos os seus dados são
-                            protegidos.
-                          </Text>
+                          {garantiaText.heading2}
                         </Heading>
+                        <Text as={'h2'} textAlign={'center'}>
+                          {garantiaText.text2}
+                        </Text>
                       </Box>
                     </VStack>
                   </VStack>
@@ -122,17 +130,16 @@ export function GarantiaDeSeguranca() {
                     <VStack align={'center'}>
                       <Box>
                         <Heading
-                          fontSize={{ base: 'sm', md: 'lg' }}
-                          textAlign={{ base: 'center', md: 'center', lg: 'center' }}
+                          as={'h1'}
+                          fontSize={'2xl'}
+                          color={'red.300'}
+                          textAlign={'center'}
                         >
-                          <Text fontSize={'2xl'} color={'red.300'}>
-                            Acesso Imediato
-                          </Text>
-                          <Text fontWeight={'normal'} as='span'>
-                            Assim que seu pagamento for processado, você terá acesso
-                            imediato ao conteúdo do curso.
-                          </Text>
+                          {garantiaText.heading3}
                         </Heading>
+                        <Text as={'h2'} textAlign={'center'}>
+                          {garantiaText.text3}
+                        </Text>
                       </Box>
                     </VStack>
                   </VStack>

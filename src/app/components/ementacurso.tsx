@@ -4,6 +4,9 @@ import { Box, Stack, Container, Heading, Flex, SimpleGrid } from '@chakra-ui/rea
 import { EmentaCards } from './ementacards';
 
 export function EmentaCurso() {
+  const textEmenta = {
+    text1: 'Ementa do Curso',
+  };
   return (
     <>
       <Box bgGradient={'linear(to-br, gray.900, red.800)'}>
@@ -15,7 +18,7 @@ export function EmentaCurso() {
                 fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}
                 textAlign={'center'}
               >
-                Ementa do Curso
+                {textEmenta.text1}
               </Heading>
             </Stack>
             <Stack direction='column' alignItems='center' p={4}>

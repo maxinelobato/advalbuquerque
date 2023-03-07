@@ -1,25 +1,7 @@
 'use client';
 
-import { Flex, Box, Badge, BoxProps } from '@chakra-ui/react';
+import { Flex, Box, Badge, BoxProps, TextProps, Text } from '@chakra-ui/react';
 import Image from 'next/image';
-
-const modulos = {
-  isNew: true,
-  imageURL0: '/img/boasvindas.webp',
-  imageURL1: '/img/aula1.webp',
-  imageURL2: '/img/aula2.webp',
-  imageURL3: '/img/aula3.webp',
-  imageURL41: '/img/aula4part1.webp',
-  imageURL42: '/img/aula4part2.webp',
-  imageURL5: '/img/aula5.webp',
-  modulo0: 'Módulo Boas Vindas',
-  modulo1: 'Módulo 1',
-  modulo2: 'Módulo 2',
-  modulo3: 'Módulo 3',
-  modulo41: 'Módulo 4 Parte 1',
-  modulo42: 'Módulo 4 Parte 2',
-  modulo5: 'Módulo 5',
-};
 
 function BoxStyle(props: BoxProps) {
   return (
@@ -42,12 +24,12 @@ function BoxStyle(props: BoxProps) {
   );
 }
 
-function BoxStyleLegend(props: BoxProps) {
+function TextStyleLegend(props: TextProps) {
   return (
-    <Box
+    <Text
+      as={'h4'}
       fontSize={{ base: 'sm', md: 'lg' }}
       fontWeight={'semibold'}
-      as={'h4'}
       lineHeight={'tall'}
       {...props}
     />
@@ -55,6 +37,31 @@ function BoxStyleLegend(props: BoxProps) {
 }
 
 export function EmentaCards() {
+  const modulos = {
+    isNew: true,
+    imageURL0: '/img/boasvindas.webp',
+    imageURL1: '/img/aula1.webp',
+    imageURL2: '/img/aula2.webp',
+    imageURL3: '/img/aula3.webp',
+    imageURL41: '/img/aula4part1.webp',
+    imageURL42: '/img/aula4part2.webp',
+    imageURL5: '/img/aula5.webp',
+    modulo0: 'Módulo Boas Vindas',
+    modulo1: 'Módulo 1',
+    modulo2: 'Módulo 2',
+    modulo3: 'Módulo 3',
+    modulo41: 'Módulo 4 Parte 1',
+    modulo42: 'Módulo 4 Parte 2',
+    modulo5: 'Módulo 5',
+    text0: 'Bem vindos ao curso de Prática em Audiências Criminais',
+    text1: 'O processo penal e seus procedimentos',
+    text2: 'Procedimento Comum Ordinário e suas características',
+    text3: 'Noções Básicas de Técnica de Persuasão',
+    text4: 'Noções básicas de interrogatório I',
+    text5: 'Noções básicas de interrogatório II',
+    text6: 'Investigação criminal defensiva',
+  };
+
   return (
     <>
       <Flex w='full' alignItems='center' justifyContent='center'>
@@ -70,15 +77,19 @@ export function EmentaCards() {
           <Box p='4'>
             <Box display='flex' alignItems='baseline'>
               {modulos.isNew && (
-                <Badge rounded='full' px='2' fontSize='0.8em' colorScheme='red'>
+                <Badge
+                  as={'h3'}
+                  rounded='full'
+                  px='2'
+                  fontSize='0.8em'
+                  colorScheme='red'
+                >
                   {modulos.modulo0}
                 </Badge>
               )}
             </Box>
             <Flex mt='1' justifyContent='center' alignContent='center'>
-              <BoxStyleLegend>
-                Bem vindos ao curso de Prática em Audiências Criminais
-              </BoxStyleLegend>
+              <TextStyleLegend>{modulos.text0}</TextStyleLegend>
             </Flex>
           </Box>
         </BoxStyle>
@@ -96,13 +107,19 @@ export function EmentaCards() {
           <Box p='4'>
             <Box display='flex' alignItems='baseline'>
               {modulos.isNew && (
-                <Badge rounded='full' px='2' fontSize='0.8em' colorScheme='red'>
+                <Badge
+                  as={'h3'}
+                  rounded='full'
+                  px='2'
+                  fontSize='0.8em'
+                  colorScheme='red'
+                >
                   {modulos.modulo1}
                 </Badge>
               )}
             </Box>
             <Flex mt='1' justifyContent='center' alignContent='center'>
-              <BoxStyleLegend>O processo penal e seus procedimentos</BoxStyleLegend>
+              <TextStyleLegend>{modulos.text1}</TextStyleLegend>
             </Flex>
           </Box>
         </BoxStyle>
@@ -120,15 +137,19 @@ export function EmentaCards() {
           <Box p='4'>
             <Box display='flex' alignItems='baseline'>
               {modulos.isNew && (
-                <Badge rounded='full' px='2' fontSize='0.8em' colorScheme='red'>
+                <Badge
+                  as={'h3'}
+                  rounded='full'
+                  px='2'
+                  fontSize='0.8em'
+                  colorScheme='red'
+                >
                   {modulos.modulo2}
                 </Badge>
               )}
             </Box>
             <Flex mt='1' justifyContent='center' alignContent='center'>
-              <BoxStyleLegend>
-                Procedimento Comum Ordinário e suas características
-              </BoxStyleLegend>
+              <TextStyleLegend>{modulos.text2}</TextStyleLegend>
             </Flex>
           </Box>
         </BoxStyle>
@@ -146,13 +167,19 @@ export function EmentaCards() {
           <Box p='4'>
             <Box display='flex' alignItems='baseline'>
               {modulos.isNew && (
-                <Badge rounded='full' px='2' fontSize='0.8em' colorScheme='red'>
+                <Badge
+                  as={'h3'}
+                  rounded='full'
+                  px='2'
+                  fontSize='0.8em'
+                  colorScheme='red'
+                >
                   {modulos.modulo3}
                 </Badge>
               )}
             </Box>
             <Flex mt='1' justifyContent='center' alignContent='center'>
-              <BoxStyleLegend>Noções Básicas de Técnica de Persuasão</BoxStyleLegend>
+              <TextStyleLegend>{modulos.text3}</TextStyleLegend>
             </Flex>
           </Box>
         </BoxStyle>
@@ -170,13 +197,19 @@ export function EmentaCards() {
           <Box p='4'>
             <Box display='flex' alignItems='baseline'>
               {modulos.isNew && (
-                <Badge rounded='full' px='2' fontSize='0.8em' colorScheme='red'>
+                <Badge
+                  as={'h3'}
+                  rounded='full'
+                  px='2'
+                  fontSize='0.8em'
+                  colorScheme='red'
+                >
                   {modulos.modulo41}
                 </Badge>
               )}
             </Box>
             <Flex mt='1' justifyContent='center' alignContent='center'>
-              <BoxStyleLegend>Noções básicas de interrogatório I</BoxStyleLegend>
+              <TextStyleLegend>{modulos.text4}</TextStyleLegend>
             </Flex>
           </Box>
         </BoxStyle>
@@ -194,13 +227,19 @@ export function EmentaCards() {
           <Box p='4'>
             <Box display='flex' alignItems='baseline'>
               {modulos.isNew && (
-                <Badge rounded='full' px='2' fontSize='0.8em' colorScheme='red'>
+                <Badge
+                  as={'h3'}
+                  rounded='full'
+                  px='2'
+                  fontSize='0.8em'
+                  colorScheme='red'
+                >
                   {modulos.modulo42}
                 </Badge>
               )}
             </Box>
             <Flex mt='1' justifyContent='center' alignContent='center'>
-              <BoxStyleLegend>Noções básicas de interrogatório II</BoxStyleLegend>
+              <TextStyleLegend>{modulos.text5}</TextStyleLegend>
             </Flex>
           </Box>
         </BoxStyle>
@@ -218,13 +257,19 @@ export function EmentaCards() {
           <Box p='4'>
             <Box display='flex' alignItems='baseline'>
               {modulos.isNew && (
-                <Badge rounded='full' px='2' fontSize='0.8em' colorScheme='red'>
+                <Badge
+                  as={'h3'}
+                  rounded='full'
+                  px='2'
+                  fontSize='0.8em'
+                  colorScheme='red'
+                >
                   {modulos.modulo5}
                 </Badge>
               )}
             </Box>
             <Flex mt='1' justifyContent='center' alignContent='center'>
-              <BoxStyleLegend>Investigação criminal defensiva</BoxStyleLegend>
+              <TextStyleLegend>{modulos.text6}</TextStyleLegend>
             </Flex>
           </Box>
         </BoxStyle>

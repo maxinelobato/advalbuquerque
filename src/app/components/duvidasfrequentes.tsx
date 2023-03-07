@@ -46,6 +46,27 @@ const Feature = ({ text, icon }: FeatureProps) => {
 };
 
 export function DuvidasFrequentes() {
+  const textDuvidas = {
+    textduvidas1:
+      'Clique no botão “Quero aprender!” e você será direcionado para uma página de confirmação da Hotmart. A plataforma é 100% segura e confiável. Você deverá incluir as informações para pagamento (por meio de boleto, cartão de crédito, pix ou demais opções) e concluir a sua inscrição.',
+    textduvidas2:
+      ' As aulas serão online e também 100% gravadas e disponibilizadas na plataforma do curso. Além disso, o Curso possui aulas de Social Mídia e Gestão de Tráfego exclusivo para advogados iniciantes.',
+    textduvidas3:
+      'O aluno receberá um e-mail da plataforma Hotmart informando que a compra está confirmada e, abaixo dos dados, haverá um botão escrito “ACESSAR MEU PRODUTO”. Clicando nele, abrirá uma página solicitando que você crie um login e senha para acessar as aulas e materiais do Curso Prática em Audiências Criminais.',
+    textduvidas4:
+      'O aluno terá 12 meses de assinatura ao Curso e não há limite de visualizações, ou seja, é possível assistir quantas vezes quiser, seja pelo celular ou pelo computador.',
+    textduvidas5:
+      'Sim. O Curso Prática em Audiências Criminais possui Certificado de Conclusão em 72h, que será disponibilizado aos alunos conforme a conclusão das aulas.',
+    textduvidas6:
+      'Porque é um Curso focado na visão de negócios da advocacia – você finalmente vai aprender a se preparar para uma audiência criminal seja presencial ou online, táticas e práticas dos seus serviços como técnicas de interrogatório, raciocínio lógico, técnicas de persuasão. Fora isso, o Curso Prática em Audiências Criminais já conta com vários membros cujos resultados se comprovam a cada dia.',
+    textduvidas7:
+      ' Não. Entre nossos cases de sucesso, temos diversos profissionais em início de carreira e com pouca ou nenhuma experiência prévia.',
+    textduvidas8:
+      'Diversos advogados experientes já fizeram parte do Curso, alçando resultados ainda melhores simplesmente porque apresentamos estratégias práticas, eficientes e avançadas.',
+    textduvidas9:
+      'Os novos alunos matriculados no Curso de Prática em Audiências Criminais têm 7 dias para testar. Isso permite que eles tenham acesso ao curso e possam viver toda a experiência entregue pelo curso. Dentro desses 7 dias, caso o aluno não goste do Curso ou não enxergue que é entregue um valor muito maior do que o preço que ele pagou, ele poderá enviar uma mensagem para o nosso suporte e ter o reembolso do preço integral do curso, sem perguntas, sem ressentimentos… simples assim.',
+  };
+
   return (
     <Box bgGradient={'linear(to-bl, gray.900, red.800)'}>
       <Container maxW='5xl' py={6} as={Stack} spacing={12}>
@@ -77,13 +98,7 @@ export function DuvidasFrequentes() {
                   </h2>
                   <AccordionPanel>
                     <Box>
-                      <Text textAlign='justify'>
-                        Clique no botão “Quero aprender!” e você será direcionado para
-                        uma página de confirmação da Hotmart. A plataforma é 100% segura
-                        e confiável. Você deverá incluir as informações para pagamento
-                        (por meio de boleto, cartão de crédito, pix ou demais opções) e
-                        concluir a sua inscrição.
-                      </Text>
+                      <Text textAlign='justify'>{textDuvidas.textduvidas1}</Text>
                     </Box>
                   </AccordionPanel>
                 </AccordionItem>
@@ -104,12 +119,7 @@ export function DuvidasFrequentes() {
                   </h2>
                   <AccordionPanel>
                     <Box>
-                      <Text textAlign='justify'>
-                        As aulas serão online e também 100% gravadas e disponibilizadas
-                        na plataforma do curso. Além disso, o Curso possui aulas de
-                        Social Mídia e Gestão de Tráfego exclusivo para advogados
-                        iniciantes.
-                      </Text>
+                      <Text textAlign='justify'>{textDuvidas.textduvidas2}</Text>
                     </Box>
                   </AccordionPanel>
                 </AccordionItem>
@@ -130,13 +140,7 @@ export function DuvidasFrequentes() {
                   </h2>
                   <AccordionPanel>
                     <Box>
-                      <Text textAlign='justify'>
-                        O aluno receberá um e-mail da plataforma Hotmart informando que
-                        a compra está confirmada e, abaixo dos dados, haverá um botão
-                        escrito “ACESSAR MEU PRODUTO”. Clicando nele, abrirá uma página
-                        solicitando que você crie um login e senha para acessar as aulas
-                        e materiais do Curso Prática em Audiências Criminais.
-                      </Text>
+                      <Text textAlign='justify'>{textDuvidas.textduvidas3}</Text>
                     </Box>
                   </AccordionPanel>
                 </AccordionItem>
@@ -157,11 +161,7 @@ export function DuvidasFrequentes() {
                   </h2>
                   <AccordionPanel>
                     <Box>
-                      <Text textAlign='justify'>
-                        O aluno terá 12 meses de assinatura ao Curso e não há limite de
-                        visualizações, ou seja, é possível assistir quantas vezes
-                        quiser, seja pelo celular ou pelo computador.
-                      </Text>
+                      <Text textAlign='justify'>{textDuvidas.textduvidas4}</Text>
                     </Box>
                   </AccordionPanel>
                 </AccordionItem>
@@ -182,11 +182,7 @@ export function DuvidasFrequentes() {
                   </h2>
                   <AccordionPanel>
                     <Box>
-                      <Text textAlign='justify'>
-                        Sim. O Curso Prática em Audiências Criminais possui Certificado
-                        de Conclusão em 72h, que será disponibilizado aos alunos
-                        conforme a conclusão das aulas.
-                      </Text>
+                      <Text textAlign='justify'>{textDuvidas.textduvidas5}</Text>
                     </Box>
                   </AccordionPanel>
                 </AccordionItem>
@@ -209,15 +205,7 @@ export function DuvidasFrequentes() {
                   </h2>
                   <AccordionPanel>
                     <Box>
-                      <Text textAlign='justify'>
-                        Porque é um Curso focado na visão de negócios da advocacia –
-                        você finalmente vai aprender a se preparar para uma audiência
-                        criminal seja presencial ou online, táticas e práticas dos seus
-                        serviços como técnicas de interrogatório, raciocínio lógico,
-                        técnicas de persuasão. Fora isso, o Curso Prática em Audiências
-                        Criminais já conta com vários membros cujos resultados se
-                        comprovam a cada dia.
-                      </Text>
+                      <Text textAlign='justify'>{textDuvidas.textduvidas6}</Text>
                     </Box>
                   </AccordionPanel>
                 </AccordionItem>
@@ -238,10 +226,7 @@ export function DuvidasFrequentes() {
                   </h2>
                   <AccordionPanel>
                     <Box>
-                      <Text textAlign='justify'>
-                        Não. Entre nossos cases de sucesso, temos diversos profissionais
-                        em início de carreira e com pouca ou nenhuma experiência prévia.
-                      </Text>
+                      <Text textAlign='justify'>{textDuvidas.textduvidas7}</Text>
                     </Box>
                   </AccordionPanel>
                 </AccordionItem>
@@ -264,11 +249,7 @@ export function DuvidasFrequentes() {
                   </h2>
                   <AccordionPanel>
                     <Box>
-                      <Text textAlign='justify'>
-                        Diversos advogados experientes já fizeram parte do Curso,
-                        alçando resultados ainda melhores simplesmente porque
-                        apresentamos estratégias práticas, eficientes e avançadas.
-                      </Text>
+                      <Text textAlign='justify'>{textDuvidas.textduvidas8}</Text>
                     </Box>
                   </AccordionPanel>
                 </AccordionItem>
@@ -289,16 +270,7 @@ export function DuvidasFrequentes() {
                   </h2>
                   <AccordionPanel>
                     <Box>
-                      <Text textAlign='justify'>
-                        Os novos alunos matriculados no Curso de Prática em Audiências
-                        Criminais têm 7 dias para testar. Isso permite que eles tenham
-                        acesso ao curso e possam viver toda a experiência entregue pelo
-                        curso. Dentro desses 7 dias, caso o aluno não goste do Curso ou
-                        não enxergue que é entregue um valor muito maior do que o preço
-                        que ele pagou, ele poderá enviar uma mensagem para o nosso
-                        suporte e ter o reembolso do preço integral do curso, sem
-                        perguntas, sem ressentimentos… simples assim.
-                      </Text>
+                      <Text textAlign='justify'>{textDuvidas.textduvidas9}</Text>
                     </Box>
                   </AccordionPanel>
                 </AccordionItem>

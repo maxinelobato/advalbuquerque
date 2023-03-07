@@ -4,6 +4,10 @@ import { Button, Link } from '@chakra-ui/react';
 import { ArrowRight } from 'phosphor-react';
 
 export function BotaoHotmart() {
+  const buttonText = {
+    textButton: 'Quero aprender!',
+  };
+
   return (
     <>
       <Button
@@ -26,7 +30,7 @@ export function BotaoHotmart() {
         rightIcon={<ArrowRight size={24} weight={'bold'} />}
         isExternal
       >
-        Quero aprender!
+        {buttonText.textButton}
       </Button>
     </>
   );

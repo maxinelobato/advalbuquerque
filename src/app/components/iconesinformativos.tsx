@@ -4,6 +4,13 @@ import { Box, Heading, SimpleGrid, Text, VStack } from '@chakra-ui/react';
 import { Detective, Brain, SpeakerHigh, Scales, Desktop } from 'phosphor-react';
 
 export function IconesInformativos() {
+  const headingsIcons = {
+    heading1: 'Técnicas de Interrogatório',
+    heading2: 'Raciocínio Lógico Jurídico',
+    heading3: 'Técnicas de Persuasão',
+    heading4: 'Prática Criminal Online',
+    heading5: 'Prática em Audiência Criminal',
+  };
   return (
     <>
       <SimpleGrid columns={{ base: 2, md: 3 }} spacing={[2, 4]}>
@@ -14,13 +21,11 @@ export function IconesInformativos() {
           <VStack align={'center'}>
             <Box>
               <Heading
+                as={'h1'}
                 fontSize={{ base: 'smaller', md: 'lg' }}
                 textAlign={{ base: 'center', md: 'center', lg: 'center' }}
               >
-                <Text>Técnicas de Interrogatório</Text>
-                <Text fontWeight={'normal'} as='span'>
-                  Técnicas de Interrogatório
-                </Text>
+                {headingsIcons.heading1}
               </Heading>
             </Box>
           </VStack>
@@ -32,13 +37,11 @@ export function IconesInformativos() {
           <VStack align={'center'}>
             <Box>
               <Heading
+                as={'h1'}
                 fontSize={{ base: 'smaller', md: 'lg' }}
                 textAlign={{ base: 'center', md: 'center', lg: 'center' }}
               >
-                <Text>Raciocínio Lógico Jurídico</Text>
-                <Text fontWeight={'normal'} as='span'>
-                  Raciocínio Lógico Jurídico
-                </Text>
+                {headingsIcons.heading2}
               </Heading>
             </Box>
           </VStack>
@@ -50,13 +53,11 @@ export function IconesInformativos() {
           <VStack align={'center'}>
             <Box>
               <Heading
+                as={'h1'}
                 fontSize={{ base: 'smaller', md: 'lg' }}
                 textAlign={{ base: 'center', md: 'center', lg: 'center' }}
               >
-                <Text>Técnicas de Persuasão</Text>
-                <Text fontWeight={'normal'} as='span'>
-                  Técnicas de Persuasão
-                </Text>
+                {headingsIcons.heading3}
               </Heading>
             </Box>
           </VStack>
@@ -68,13 +69,11 @@ export function IconesInformativos() {
           <VStack align={'start'}>
             <Box>
               <Heading
+                as={'h1'}
                 fontSize={{ base: 'sm', md: 'lg' }}
                 textAlign={{ base: 'center', md: 'center', lg: 'center' }}
               >
-                <Text>Prática Criminal Online</Text>
-                <Text fontWeight={'normal'} as='span'>
-                  Prática Criminal Online
-                </Text>
+                {headingsIcons.heading4}
               </Heading>
             </Box>
           </VStack>
@@ -86,13 +85,11 @@ export function IconesInformativos() {
           <VStack align={'start'}>
             <Box>
               <Heading
+                as={'h1'}
                 fontSize={{ base: 'sm', md: 'lg' }}
                 textAlign={{ base: 'center', md: 'center', lg: 'center' }}
               >
-                <Text>Prática em Audiência Criminal</Text>
-                <Text fontWeight={'normal'} as='span'>
-                  Prática em Audiência Criminal
-                </Text>
+                {headingsIcons.heading5}
               </Heading>
             </Box>
           </VStack>
