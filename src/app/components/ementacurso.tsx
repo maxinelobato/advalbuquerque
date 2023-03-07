@@ -27,7 +27,7 @@ export function EmentaCurso() {
                   justifyContent={{ base: 'center', md: 'center' }}
                   direction={{ base: 'column', md: 'row' }}
                 >
-                  <SimpleGrid columns={{ base: 1, md: 3 }} spacing={[4, 6]}>
+                  <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={[4, 6]}>
                     <EmentaCards />
                   </SimpleGrid>
                 </Flex>

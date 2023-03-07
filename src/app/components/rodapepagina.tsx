@@ -76,8 +76,9 @@ export function RodapePagina() {
                     </Text>
                     <Stack
                       spacing={{ base: 4, sm: 6 }}
-                      direction={{ base: 'column', md: 'row' }}
+                      direction={'column'}
                       justify={'center'}
+                      align={'center'}
                       pt={5}
                     >
                       <Button
@@ -89,7 +90,6 @@ export function RodapePagina() {
                           setOverlay(<OverlayTwo />);
                           onOpen();
                         }}
-                        textAlign={'center'}
                         color={'red.400'}
                         fontWeight={'light'}
                         fontSize={'sm'}
@@ -107,9 +107,9 @@ export function RodapePagina() {
                     >
                       {overlay}
                       <ModalContent
-                        bgColor={'blackAlpha.900'}
+                        bgColor={'blackAlpha.700'}
                         backdropBlur={'1rem'}
-                        backdropFilter='blur(5px)'
+                        backdropFilter='blur(20px)'
                         border={'1px'}
                         borderColor={'whiteAlpha.200'}
                       >
