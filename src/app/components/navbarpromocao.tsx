@@ -3,11 +3,17 @@
 import { Box, Button, Flex, HStack, Link } from '@chakra-ui/react';
 
 export function NavbarPromocao() {
+  const textBox = {
+    textprom1: 'Aproveite de ',
+    textprom2: 'R$997,00',
+    textprom3: ' por R$497,00',
+    textcta: 'Quero aproveitar!',
+  };
   return (
     <>
       <Box
         w='full'
-        bgGradient={'linear(to-l, #000, red.500, gray.700)'}
+        bgGradient={'linear(to-l, gray.900, red.500, gray.900)'}
         justifyContent={'center'}
         alignContent={'center'}
         alignItems={'center'}
@@ -18,7 +24,9 @@ export function NavbarPromocao() {
         <Flex p={2} alignItems={'center'} justifyContent={'center'}>
           <HStack spacing={8} alignItems={'center'}>
             <Box textAlign={'center'} fontWeight={'medium'}>
-              Aproveite de <s>R$997,00</s> por R$497,00
+              {textBox.textprom1}
+              <s>{textBox.textprom2}</s>
+              {textBox.textprom3}
             </Box>
           </HStack>
           <Flex alignItems={'center'} pl={'2'}>
@@ -26,15 +34,14 @@ export function NavbarPromocao() {
               as={Link}
               rounded={'full'}
               size={'sm'}
-              bgColor={'blackAlpha.800'}
-              _hover={{ transition: '0.3s', bgColor: 'blackAlpha.500' }}
+              colorScheme={'red'}
               href={
                 'https://pay.hotmart.com/S78406296U?sck=HOTMART_PRODUCT_PAGE&bid=1676862918160'
               }
               style={{ textDecoration: 'none' }}
               isExternal
             >
-              Quero aproveitar!
+              {textBox.textcta}
             </Button>
           </Flex>
         </Flex>

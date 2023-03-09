@@ -85,6 +85,8 @@ export function PaginaInicial() {
                   overflow={'hidden'}
                   zIndex={1}
                   boxShadow={'lg'}
+                  border={'4px'}
+                  borderColor={'red.400'}
                 >
                   <VideoAdv />
                 </Box>
