@@ -8,7 +8,6 @@ export function VideoAdv() {
         height={300}
         src={'./video/video1.webm'}
         poster={'./img/capa.webp'}
-        autoPlay
         playsInline
         controls
       />
