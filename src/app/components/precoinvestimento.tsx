@@ -34,6 +34,14 @@ function BoxBgImage(props: BoxProps) {
 }
 
 export function PrecoInvestimento() {
+  const textHeading = {
+    heading1: 'Qual é o preço do Investimento?',
+    heading2: 'de R$997,00',
+    heading3: 'Por 12x de',
+    heading4: 'R$',
+    heading5: '41,41',
+    heading6: 'ou à vista por R$497,00',
+  };
   return (
     <>
       <BoxBgImage>
@@ -48,7 +56,7 @@ export function PrecoInvestimento() {
                   fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}
                   textAlign={'center'}
                 >
-                  Qual é o preço do Investimento?
+                  {textHeading.heading1}
                 </Heading>
               </Stack>
               <Box
@@ -68,14 +76,14 @@ export function PrecoInvestimento() {
                       fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
                       transform='scale(1.2)'
                     >
-                      de R$997,00
+                      {textHeading.heading2}
                     </Text>
                     <Text color={'whiteAlpha.900'} transform='scale(1.2)'>
-                      Por 12x de{' '}
+                      {textHeading.heading3}{' '}
                     </Text>
                     <Text color={'whiteAlpha.900'} transform='scale(1.2)'>
                       <Text as={'span'} color={'whiteAlpha.600'} fontWeight={'bold'}>
-                        R$
+                        {textHeading.heading4}
                       </Text>{' '}
                       <Text
                         as={'span'}
@@ -84,11 +92,11 @@ export function PrecoInvestimento() {
                         fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
                         transform='scale(1.2)'
                       >
-                        41,41
+                        {textHeading.heading5}
                       </Text>
                     </Text>
                     <Text as={'span'} color={'whiteAlpha.900'}>
-                      ou à vista por R$497,00
+                      {textHeading.heading6}
                     </Text>
                   </Stack>
                 </Stack>

@@ -30,6 +30,11 @@ function BoxBgImageInicial(props: BoxProps) {
 }
 
 export function PaginaInicial() {
+  const textHeading = {
+    heading1: 'Prática em Audiências Criminais',
+    heading2:
+      'Saiba como usar as melhores técnicas de interrogatório, raciocínio lógico jurídico e técnicas de persuasão.',
+  };
   return (
     <>
       <BoxBgImageInicial>
@@ -51,7 +56,7 @@ export function PaginaInicial() {
                   textAlign={{ base: 'center', md: 'left', lg: 'left' }}
                   textTransform={'uppercase'}
                 >
-                  Prática em Audiências Criminais
+                  {textHeading.heading1}
                 </Heading>
                 <Text
                   fontWeight={'normal'}
@@ -59,8 +64,7 @@ export function PaginaInicial() {
                   textAlign={{ base: 'center', md: 'left', lg: 'left' }}
                   color={'whiteAlpha.800'}
                 >
-                  Saiba como usar as melhores técnicas de interrogatório, raciocínio
-                  lógico jurídico e técnicas de persuasão.
+                  {textHeading.heading2}
                 </Text>
                 <Stack
                   spacing={{ base: 4, sm: 6 }}

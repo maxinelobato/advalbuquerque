@@ -115,9 +115,9 @@ export function GarantiaDeSeguranca() {
                     backdropBlur={'1rem'}
                     backdropFilter='blur(5px)'
                     rounded={'lg'}
+                    shadow={'lg'}
                     border={'1px'}
                     borderColor={'whiteAlpha.200'}
-                    shadow={'lg'}
                     _hover={{
                       bgColor: 'blackAlpha.800',
                       transition: '0.5s ease-in-out',

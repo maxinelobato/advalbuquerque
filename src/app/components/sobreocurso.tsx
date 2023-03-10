@@ -4,6 +4,14 @@ import { Box, Stack, Container, Heading, Flex, Highlight } from '@chakra-ui/reac
 import { IconesInformativos } from './iconesinformativos';
 
 export function SobreOCurso() {
+  const textHeading = {
+    heading1:
+      'O curso prático de audiência criminal terá como objetivo demonstrar ao aluno como se preparar para audiências criminais seja presencial ou virtual.',
+    heading2:
+      'O curso será literalmente da tática à prática. O aluno terá todo o aporte teórico para que possa ser um expert na atuação da advocacia criminal e construir sua teses defensiva assim que entrar em um caso.',
+    heading3:
+      'As aulas todas serão produzidas pelo Professor Raimundo Albuquerque com experiência comprovada e atuação em todo o território nacional, o que mostra a sua versatilidade para advogar em qualquer lugar e em qualquer condição. teremos no mínimo 6 módulos.',
+  };
   return (
     <>
       <Box bgColor={'gray.900'}>
@@ -26,9 +34,7 @@ export function SobreOCurso() {
                     rounded: 'full',
                   }}
                 >
-                  O curso prático de audiência criminal terá como objetivo demonstrar ao
-                  aluno como se preparar para audiências criminais seja presencial ou
-                  virtual.
+                  {textHeading.heading1}
                 </Highlight>
                 <br />
                 <Highlight
@@ -41,9 +47,7 @@ export function SobreOCurso() {
                     rounded: 'full',
                   }}
                 >
-                  O curso será literalmente da tática à prática. O aluno terá todo o
-                  aporte teórico para que possa ser um expert na atuação da advocacia
-                  criminal e construir sua teses defensiva assim que entrar em um caso.
+                  {textHeading.heading2}
                 </Highlight>
                 <br />
                 <Highlight
@@ -61,10 +65,7 @@ export function SobreOCurso() {
                     rounded: 'full',
                   }}
                 >
-                  As aulas todas serão produzidas pelo Professor Raimundo Albuquerque
-                  com experiência comprovada e atuação em todo o território nacional, o
-                  que mostra a sua versatilidade para advogar em qualquer lugar e em
-                  qualquer condição. teremos no mínimo 6 módulos.
+                  {textHeading.heading3}
                 </Highlight>
               </Heading>
             </Stack>
