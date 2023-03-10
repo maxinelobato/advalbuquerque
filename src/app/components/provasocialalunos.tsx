@@ -12,6 +12,7 @@ import {
   Heading,
 } from '@chakra-ui/react';
 import { Quotes } from 'phosphor-react';
+import Image from 'next/image';
 
 interface TestimonialAttributes {
   username: string;
@@ -64,13 +65,14 @@ export function ProvaSocialAlunos() {
                 {testimonial.content}
               </Text>
               <VStack alignItems='center'>
-                <Avatar
-                  name='avatar'
-                  src={testimonial.image}
-                  size='lg'
-                  width={100}
-                  height={100}
-                />
+                <Box rounded={'full'} overflow={'hidden'}>
+                  <Image
+                    alt='Avatar'
+                    src={testimonial.image}
+                    width={100}
+                    height={100}
+                  />
+                </Box>
                 <Box textAlign='center'>
                   <Text fontWeight='bold' fontSize='lg'>
                     {testimonial.username}
@@ -102,13 +104,14 @@ export function ProvaSocialAlunos() {
                 {testimonial.content}
               </Text>
               <VStack alignItems='center'>
-                <Avatar
-                  name='avatar'
-                  src={testimonial.image}
-                  size='lg'
-                  width={100}
-                  height={100}
-                />
+                <Box rounded={'full'} overflow={'hidden'}>
+                  <Image
+                    alt='Avatar'
+                    src={testimonial.image}
+                    width={100}
+                    height={100}
+                  />
+                </Box>
                 <Box textAlign='center'>
                   <Text fontWeight='bold' fontSize='lg'>
                     {testimonial.username}
@@ -140,13 +143,14 @@ export function ProvaSocialAlunos() {
                 {testimonial.content}
               </Text>
               <VStack alignItems='center'>
-                <Avatar
-                  name='avatar'
-                  src={testimonial.image}
-                  size='lg'
-                  width={100}
-                  height={100}
-                />
+                <Box rounded={'full'} overflow={'hidden'}>
+                  <Image
+                    alt='Avatar'
+                    src={testimonial.image}
+                    width={100}
+                    height={100}
+                  />
+                </Box>
                 <Box textAlign='center'>
                   <Text fontWeight='bold' fontSize='lg'>
                     {testimonial.username}
@@ -178,13 +182,14 @@ export function ProvaSocialAlunos() {
                 {testimonial.content}
               </Text>
               <VStack alignItems='center'>
-                <Avatar
-                  name='avatar'
-                  src={testimonial.image}
-                  size='lg'
-                  width={100}
-                  height={100}
-                />
+                <Box rounded={'full'} overflow={'hidden'}>
+                  <Image
+                    alt='Avatar'
+                    src={testimonial.image}
+                    width={100}
+                    height={100}
+                  />
+                </Box>
                 <Box textAlign='center'>
                   <Text fontWeight='bold' fontSize='lg'>
                     {testimonial.username}
