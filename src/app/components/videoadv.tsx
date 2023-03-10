@@ -5,7 +5,7 @@ export function VideoAdv() {
     <>
       <video
         width={600}
-        height={600}
+        height={300}
         src={'./video/video1.webm'}
         poster={'./img/capa.webp'}
         autoPlay
