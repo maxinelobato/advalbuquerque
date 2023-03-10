@@ -71,6 +71,7 @@ export function ProvaSocialAlunos() {
                     src={testimonial.image}
                     width={100}
                     height={100}
+                    quality={75}
                     loading={'lazy'}
                   />
                 </Box>
@@ -111,6 +112,7 @@ export function ProvaSocialAlunos() {
                     src={testimonial.image}
                     width={100}
                     height={100}
+                    quality={75}
                     loading={'lazy'}
                   />
                 </Box>
@@ -151,6 +153,7 @@ export function ProvaSocialAlunos() {
                     src={testimonial.image}
                     width={100}
                     height={100}
+                    quality={75}
                     loading={'lazy'}
                   />
                 </Box>
@@ -191,6 +194,7 @@ export function ProvaSocialAlunos() {
                     src={testimonial.image}
                     width={100}
                     height={100}
+                    quality={75}
                     loading={'lazy'}
                   />
                 </Box>

@@ -69,6 +69,8 @@ export function AulasBonusCards() {
             alt={`Picture of ${modulos.modulo1}`}
             width={500}
             height={500}
+            quality={75}
+            loading={'lazy'}
           />
           <CardBody>
             <Stack mt='2' spacing='3'>
@@ -98,6 +100,8 @@ export function AulasBonusCards() {
             alt={`Picture of ${modulos.modulo2}`}
             width={500}
             height={500}
+            quality={75}
+            loading={'lazy'}
           />
           <CardBody>
             <Stack mt='2' spacing='3'>

@@ -71,6 +71,7 @@ export function EmentaCards() {
             alt={`Picture of ${modulos.modulo0}`}
             width={300}
             height={300}
+            quality={75}
             loading={'lazy'}
           />
 
@@ -102,6 +103,7 @@ export function EmentaCards() {
             alt={`Picture of ${modulos.modulo1}`}
             width={300}
             height={300}
+            quality={75}
             loading={'lazy'}
           />
           <Box p='4'>
@@ -132,6 +134,7 @@ export function EmentaCards() {
             alt={`Picture of ${modulos.modulo2}`}
             width={300}
             height={300}
+            quality={75}
             loading={'lazy'}
           />
           <Box p='4'>
@@ -162,6 +165,7 @@ export function EmentaCards() {
             alt={`Picture of ${modulos.modulo3}`}
             width={300}
             height={300}
+            quality={75}
             loading={'lazy'}
           />
           <Box p='4'>
@@ -192,6 +196,7 @@ export function EmentaCards() {
             alt={`Picture of ${modulos.modulo41}`}
             width={300}
             height={300}
+            quality={75}
             loading={'lazy'}
           />
           <Box p='4'>
@@ -222,6 +227,7 @@ export function EmentaCards() {
             alt={`Picture of ${modulos.modulo42}`}
             width={300}
             height={300}
+            quality={75}
             loading={'lazy'}
           />
           <Box p='4'>
@@ -252,6 +258,7 @@ export function EmentaCards() {
             alt={`Picture of ${modulos.modulo5}`}
             width={300}
             height={300}
+            quality={75}
             loading={'lazy'}
           />
           <Box p='4'>
