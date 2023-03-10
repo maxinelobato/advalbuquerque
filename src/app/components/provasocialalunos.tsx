@@ -42,7 +42,7 @@ export function ProvaSocialAlunos() {
               Depoimento dos Alunos
             </Heading>
           </Flex>
-          <SimpleGrid columns={{ base: 2, md: 4 }} spacing={[4, 0]}>
+          <SimpleGrid columns={{ base: 2, md: 4 }} spacing={[4, 6]}>
             <VStack
               spacing={3}
               p={{ base: 4, sm: 8 }}
@@ -55,21 +55,27 @@ export function ProvaSocialAlunos() {
               borderColor='red.400'
               borderBottomLeftRadius='lg'
               borderBottomRightRadius='lg'
-              maxW='25rem'
-              margin='0 auto'
+              maxW='lg'
+              margin={0}
               boxShadow='lg'
             >
               <Icon as={Quotes} weight={'fill'} w={8} h={8} color='red.400' />
-              <Text p={5} color='gray.500'>
+              <Text p={5} color='whiteAlpha.900'>
                 {testimonial.content}
               </Text>
               <VStack alignItems='center'>
-                <Avatar name='avatar' src={testimonial.image} size='lg' />
+                <Avatar
+                  name='avatar'
+                  src={testimonial.image}
+                  size='lg'
+                  width={100}
+                  height={100}
+                />
                 <Box textAlign='center'>
                   <Text fontWeight='bold' fontSize='lg'>
                     {testimonial.username}
                   </Text>
-                  <Text fontSize='md' color='gray.500'>
+                  <Text fontSize='md' color='red.400'>
                     {testimonial.position}
                   </Text>
                 </Box>
@@ -87,21 +93,27 @@ export function ProvaSocialAlunos() {
               borderColor='red.400'
               borderBottomLeftRadius='lg'
               borderBottomRightRadius='lg'
-              maxW='25rem'
-              margin='0 auto'
+              maxW='lg'
+              margin={0}
               boxShadow='lg'
             >
               <Icon as={Quotes} weight={'fill'} w={8} h={8} color='red.400' />
-              <Text p={5} color='gray.500'>
+              <Text p={5} color='whiteAlpha.900'>
                 {testimonial.content}
               </Text>
               <VStack alignItems='center'>
-                <Avatar name='avatar' src={testimonial.image} size='lg' />
+                <Avatar
+                  name='avatar'
+                  src={testimonial.image}
+                  size='lg'
+                  width={100}
+                  height={100}
+                />
                 <Box textAlign='center'>
                   <Text fontWeight='bold' fontSize='lg'>
                     {testimonial.username}
                   </Text>
-                  <Text fontSize='md' color='gray.500'>
+                  <Text fontSize='md' color='red.400'>
                     {testimonial.position}
                   </Text>
                 </Box>
@@ -119,21 +131,27 @@ export function ProvaSocialAlunos() {
               borderColor='red.400'
               borderBottomLeftRadius='lg'
               borderBottomRightRadius='lg'
-              maxW='25rem'
-              margin='0 auto'
+              maxW='lg'
+              margin={0}
               boxShadow='lg'
             >
               <Icon as={Quotes} weight={'fill'} w={8} h={8} color='red.400' />
-              <Text p={5} color='gray.500'>
+              <Text p={5} color='whiteAlpha.900'>
                 {testimonial.content}
               </Text>
               <VStack alignItems='center'>
-                <Avatar name='avatar' src={testimonial.image} size='lg' />
+                <Avatar
+                  name='avatar'
+                  src={testimonial.image}
+                  size='lg'
+                  width={100}
+                  height={100}
+                />
                 <Box textAlign='center'>
                   <Text fontWeight='bold' fontSize='lg'>
                     {testimonial.username}
                   </Text>
-                  <Text fontSize='md' color='gray.500'>
+                  <Text fontSize='md' color='red.400'>
                     {testimonial.position}
                   </Text>
                 </Box>
@@ -151,21 +169,27 @@ export function ProvaSocialAlunos() {
               borderColor='red.400'
               borderBottomLeftRadius='lg'
               borderBottomRightRadius='lg'
-              maxW='25rem'
-              margin='0 auto'
+              maxW='lg'
+              margin={'0'}
               boxShadow='lg'
             >
               <Icon as={Quotes} weight={'fill'} w={8} h={8} color='red.400' />
-              <Text p={5} color='gray.500'>
+              <Text p={5} color='whiteAlpha.900'>
                 {testimonial.content}
               </Text>
               <VStack alignItems='center'>
-                <Avatar name='avatar' src={testimonial.image} size='lg' />
+                <Avatar
+                  name='avatar'
+                  src={testimonial.image}
+                  size='lg'
+                  width={100}
+                  height={100}
+                />
                 <Box textAlign='center'>
                   <Text fontWeight='bold' fontSize='lg'>
                     {testimonial.username}
                   </Text>
-                  <Text fontSize='md' color='gray.500'>
+                  <Text fontSize='md' color='red.400'>
                     {testimonial.position}
                   </Text>
                 </Box>
