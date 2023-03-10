@@ -9,6 +9,8 @@ export function VideoAdv() {
         src={'./video/video1.webm'}
         poster={'./img/capa.webp'}
         autoPlay
+        muted
+        loop
         playsInline
         controls
       />

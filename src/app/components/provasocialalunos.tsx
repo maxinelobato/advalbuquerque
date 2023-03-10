@@ -71,6 +71,7 @@ export function ProvaSocialAlunos() {
                     src={testimonial.image}
                     width={100}
                     height={100}
+                    loading={'lazy'}
                   />
                 </Box>
                 <Box textAlign='center'>
@@ -110,6 +111,7 @@ export function ProvaSocialAlunos() {
                     src={testimonial.image}
                     width={100}
                     height={100}
+                    loading={'lazy'}
                   />
                 </Box>
                 <Box textAlign='center'>
@@ -149,6 +151,7 @@ export function ProvaSocialAlunos() {
                     src={testimonial.image}
                     width={100}
                     height={100}
+                    loading={'lazy'}
                   />
                 </Box>
                 <Box textAlign='center'>
@@ -188,6 +191,7 @@ export function ProvaSocialAlunos() {
                     src={testimonial.image}
                     width={100}
                     height={100}
+                    loading={'lazy'}
                   />
                 </Box>
                 <Box textAlign='center'>
