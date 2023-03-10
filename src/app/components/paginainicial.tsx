@@ -92,7 +92,7 @@ export function PaginaInicial() {
                   border={'4px'}
                   borderColor={'red.400'}
                 >
-                  {/* <VideoAdv /> */}
+                  <VideoAdv />
                 </Box>
               </Flex>
             </Stack>
