@@ -10,7 +10,6 @@ export function VideoAdv() {
         poster={'./img/capa.webp'}
         autoPlay
         muted
-        loop
         playsInline
         controls
       />
