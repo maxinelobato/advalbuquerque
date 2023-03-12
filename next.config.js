@@ -5,4 +5,10 @@ const nextConfig = {
   },
 };
 
+{
+  images: {
+    formats: ['image/svg', 'image/webp', 'image/png'];
+  }
+}
+
 module.exports = nextConfig;

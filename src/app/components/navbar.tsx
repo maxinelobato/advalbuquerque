@@ -19,7 +19,7 @@ export function Navbar() {
               width={40}
               height={40}
               quality={75}
-              loading={'lazy'}
+              priority
             />
           </VStack>
         </Box>
