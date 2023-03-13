@@ -60,7 +60,6 @@ export function ModalStefanie() {
       </Stack>
       <Modal
         isCentered
-        blockScrollOnMount={false}
         isOpen={isOpen}
         onClose={onClose}
         scrollBehavior={'inside'}

@@ -65,7 +65,7 @@ export function RodapePagina() {
     heading19:
       'Esperemos que esteja esclarecido e, como mencionado anteriormente, se houver algo que você não tem certeza se precisa ou não, geralmente é mais seguro deixar os cookies ativados, caso interaja com um dos recursos que você usa em nosso site. Esta política é efetiva a partir de Março/2023.',
     headingcloser: 'Fechar',
-    heading20: 'Copyright &copy; Signature Mídia | 2023. Todos os Direitos Reservados.',
+    heading20: 'Copyright © Signature Mídia | 2023. Todos os Direitos Reservados.',
   };
 
   return (
@@ -145,7 +145,7 @@ export function RodapePagina() {
                         </ModalHeader>
                         <ModalCloseButton />
                         <ModalBody>
-                          <Text textAlign={'left'}>[textHeading.heading5]</Text>
+                          <Text textAlign={'left'}>{textHeading.heading5}</Text>
                           <Text textAlign={'left'}>{textHeading.heading6}</Text>
                           <Text textAlign={'left'}>{textHeading.heading7}</Text>
                           <Text textAlign={'left'}>{textHeading.heading8}</Text>
