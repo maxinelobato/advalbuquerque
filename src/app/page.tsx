@@ -1,5 +1,6 @@
 'use client';
 
+import { Suspense } from 'react';
 import { AulasBonus } from './components/aulasbonus';
 import { DuvidasFrequentes } from './components/duvidasfrequentes';
 import { EmentaCurso } from './components/ementacurso';
@@ -14,6 +15,7 @@ import { SobreOCurso } from './components/sobreocurso';
 export default function Home() {
   return (
     <>
+    <Suspense>
       <PaginaInicial />
       <SobreOCurso />
       <EmentaCurso />
@@ -24,6 +26,7 @@ export default function Home() {
       <ProvaSocialAlunos />
       <DuvidasFrequentes />
       <RodapePagina />
+      </Suspense>
     </>
   );
 }
